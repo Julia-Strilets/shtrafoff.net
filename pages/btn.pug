@@ -8,10 +8,11 @@ html(lang="ru")
     link(rel="shortcut icon", href="static/favicon.ico", type="image/x-icon")
 
 body
-  include ../models/header
+  //- include ../models/header
   
-  main.content
+  main(style="margin: 0 auto; width: 50%").content
     //- include your pug here
-    a(href='btn.html') btn<br>
+    include ../models/preview-btn
+   
   
-  include ../models/footer
+  //- include ../models/footer
