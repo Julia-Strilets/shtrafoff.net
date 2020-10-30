@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'YandexSans';
+}
+
+.content {
+  min-height: calc(100vh - 40px - 40px);
+  // min-height = calc(display height - header height - footer height) 
+}
+
+.container {
+  max-width: 1360px;
+  margin: 0 auto;
+}
