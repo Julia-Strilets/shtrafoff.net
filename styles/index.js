@@ -5,4 +5,5 @@ import './common/common.scss'
 // import your css here
 import './header/header.scss'
 import './btn/btn.scss'
+import './form/form.scss'
 import './footer/footer.scss'

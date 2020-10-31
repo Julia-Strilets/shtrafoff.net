@@ -66,7 +66,8 @@
   background: #DF1E54;
 
   &:hover {
-    background-color: #F32A62;;
+    background-color: #F32A62;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
 }
 
@@ -102,7 +103,6 @@
 
 .btn--active-pink {
   background: #D11046;
-  box-shadow:unset ;
 }
 
 .btn--active-white {
@@ -122,4 +122,9 @@
       margin-left: 4px;
     }
   }
+}
+
+///////////
+.btn__buttons {
+  margin-bottom: 16px;
 }
