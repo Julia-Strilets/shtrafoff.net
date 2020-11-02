@@ -1,0 +1,17 @@
+header.header.header--shadowed
+  .container
+    .header__content.header__content--area
+
+      .header__logo
+        include ../../models/logo
+     
+      .header__btn
+        a(href="#").btn.btn--middle.btn--white.btn--iconed
+          img(src="images/icons/brilliant-red.svg", alt="icon")
+          span Премиум Активирован
+
+      .header__login
+        include ../../models/user-info
+
+      .header__links
+        include ../../models/auth/in

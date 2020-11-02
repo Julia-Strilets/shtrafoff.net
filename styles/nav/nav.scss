@@ -1,0 +1,30 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__item {
+  list-style-type: none;
+  
+  &:not(:last-child) {
+    margin-right: 48px;
+  }
+}
+
+.nav__link {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #1D1E1F;
+
+  &::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    background-color: #8397A3;
+    border-radius: 100%;
+    margin-right: 11px;
+  }
+}

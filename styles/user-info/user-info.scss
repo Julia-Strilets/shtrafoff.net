@@ -1,0 +1,29 @@
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-info__icon {
+  display: block;
+  flex-shrink: 0;
+  margin-right: 10px;
+  width: 37px;
+  height: 37px;
+}
+
+.user-info-text {
+  font-size: 14px;
+  font-weight: 500;
+
+  &:not(:last-child) {
+    margin-bottom: 4px;
+  }
+}
+
+.user-info-text__title {
+  color: #183557;
+}
+
+.user-info-text__value {
+  color: #136B9F;
+}

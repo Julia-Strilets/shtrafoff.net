@@ -1,0 +1,24 @@
+doctype html
+html(lang="ru")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Index.pug
+    meta(name="description", content="description")
+    link(rel="shortcut icon", href="static/favicon.ico", type="image/x-icon")
+
+body
+  div(style="margin-bottom: 32px")
+    include ../views/header/header-main
+  div(style="margin-bottom: 32px")
+    include ../views/header/header-area
+  div(style="margin-bottom: 32px")
+    include ../views/header/header-premium
+  div(style="margin-bottom: 32px")
+    include ../views/header/header-auth
+  div(style="margin-bottom: 32px")
+    include ../views/header/header-auth_reg
+  div(style="margin-bottom: 32px")
+    include ../views/header/header-auth_enter
+  div(style="margin-bottom: 32px")
+    include ../views/header/header-auth_exit

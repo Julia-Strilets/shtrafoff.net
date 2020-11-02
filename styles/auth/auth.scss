@@ -1,0 +1,19 @@
+.auth, .auth-item {
+  display: flex;
+  align-items: center;
+}
+
+.auth-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.auth-item__icon {
+  width: 37px;
+  height: 37px;
+  margin-right: 10px;
+}
+
+.auth-item__text {
+  font-size: 20px;
+  color: #000;
+}
