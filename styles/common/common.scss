@@ -16,8 +16,14 @@ body {
 
 .container {
   max-width: 1640px;
+  width: 100%;
   padding: 0 32px;
   margin: 0 auto;
+
+  @media screen and(max-width: 1000px) {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 
 a {

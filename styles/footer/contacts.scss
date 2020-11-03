@@ -1,0 +1,40 @@
+.footer-contacts__title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 20px;
+
+  @media screen and(max-width: 1200px) {
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    margin-bottom: 7px;
+  } 
+}
+
+.footer-contacts__value {
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 1em;
+
+    &:not(:last-child) {
+      margin-bottom: 40px;
+
+      @media screen and(max-width: 1200px) {
+        margin-bottom: 8px;
+      }
+    }
+
+    @media screen and(max-width: 1200px) {
+      font-size: 16px;
+      line-height: 12px;
+    }
+}
+
+a.footer-contacts__value {
+  display: block;
+}
+
+.footer-contacts__value--email {
+  color: #DF1E54;
+}

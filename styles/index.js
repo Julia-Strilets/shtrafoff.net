@@ -10,4 +10,10 @@ import './nav/nav.scss'
 import './form/form.scss'
 import './auth/auth.scss'
 import './user-info/user-info.scss'
+
+
 import './footer/footer.scss'
+import './footer/text-name.scss'
+import './footer/menu.scss'
+import './footer/contacts.scss'
+import './footer/store.scss'
