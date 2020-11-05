@@ -12,7 +12,8 @@ import './auth/auth.scss'
 import './user-info/user-info.scss'
 
 
-import './footer/footer.scss'
+import './footer/footer-top.scss'
+import './footer/footer-bootom.scss'
 import './footer/text-name.scss'
 import './footer/menu.scss'
 import './footer/contacts.scss'

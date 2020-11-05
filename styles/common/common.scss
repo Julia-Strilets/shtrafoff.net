@@ -5,13 +5,17 @@
 }
 
 body {
-  font-family: 'Gilroy';
-  
+  font-family: 'Gilroy'; 
 }
 
 .content {
   min-height: calc(100vh - 40px - 40px);
   // min-height = calc(display height - header height - footer height) 
+}
+
+.content--auth {
+  min-height: calc(100vh - 125px - 236px);
+  
 }
 
 .container {
@@ -33,4 +37,9 @@ a {
 button {
   cursor: pointer;
   border: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  padding: 0;
 }

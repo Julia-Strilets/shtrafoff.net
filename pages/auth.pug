@@ -7,11 +7,17 @@ html(lang="ru")
     meta(name="description", content="description")
     link(rel="shortcut icon", href="static/favicon.ico", type="image/x-icon")
 
-body
-  main.content
+body.body
+ 
+  //- include ../views/header/header-auth_reg
+  
+  
+  main.content.content--auth
     //- include your pug here
-    a(href='btn.html') btn<br>
-    a(href='form.html') form<br>
-    a(href='header-head.html') header-head<br>
-     a(href='auth.html') auth<br>
-    a(href='footer.html') footer<br>
+    include ../views/auth/auth
+  //- footer
+  //-   include ../views/footer/footer-top
+  //-   include ../views/footer/footer-bottom
+   
+  
+  //- include ../models/footer
