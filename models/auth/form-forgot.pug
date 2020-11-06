@@ -1,14 +1,15 @@
 form.form
-  img(src="images/icons/forgot.svg", alt="forgot").form__icon
-  h1.form__title Забыли пароль?
-  p.form__desc Введите Ваш номер телефона или Email для восстановления пароля
-  .form__fields
-    .field
-      label.label Email или номер телефона
-      input(type="text" placeholder="Название организации").input
-      span.message Обязательное поле
+  .form__info
+    img(src="images/icons/forgot.svg", alt="forgot").form__icon
+    h1.form__title Забыли пароль?
+    p.form__desc Введите Ваш номер телефона или Email для восстановления пароля
+    .form__fields
+      .field
+        label.label Email или номер телефона
+        input(type="text" placeholder="Название организации").input
+        span.message Обязательное поле
     
 
-  .btn__button
-    a(href="#").btn.btn--big.btn--green
-      span Отправить
+    .btn__button
+      a(href="#").btn.btn--big.btn--green
+        span Отправить

@@ -1,24 +1,27 @@
 form.form
-  img(src="images/icons/human.svg", alt="human").form__icon
-  h1.form__title Регистрация
-  .form__fields
-    .field
-      label.label Ваш email
-      input(type="text" placeholder="Название организации").input
-      span.message Обязательное поле
-    .field
-      label.label Пароль
-      input(type="text" placeholder="Название организации").input
-      pan.message Обязательное поле
-    .field
-      label.label Повторите пароль
-      input(type="text" placeholder="Название организации").input
-      span.message Обязательное поле
+  .form__info
+    img(src="images/icons/human.svg", alt="human").form__icon
+    h1.form__title Регистрация
+    .form__fields
+      .field
+        label.label Ваш email
+        input(type="text" placeholder="Название организации").input
+        span.message Обязательное поле
+      .field
+        label.label Пароль
+        input(type="text" placeholder="Название организации").input
+        pan.message Обязательное поле
+      .field
+        label.label Повторите пароль
+        input(type="text" placeholder="Название организации").input
+        span.message Обязательное поле
+    .btn__button
+      a(href="#").btn.btn--big.btn--green
+        span Зарегистрироваться
 
-  .btn__button
-    a(href="#").btn.btn--big.btn--green
-      span Зарегистрироваться
-  .form__gup
+  .form__bottom
 
-  .form__caption У вас есть аккаунт на сайте? 
-    a(href="") Войти
+    .form__gup
+
+    .form__caption У вас есть аккаунт на сайте? 
+      a(href="") Войти

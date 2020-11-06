@@ -7,8 +7,17 @@ import './header/header.scss'
 import './logo/logo.scss'
 import './btn/btn.scss'
 import './nav/nav.scss'
+
+
 import './form/form.scss'
+import './form/form-text.scss'
+import './form/form-attribute.scss'
+import './form/form-payment.scss'
 import './auth/auth.scss'
+
+
+
+
 import './user-info/user-info.scss'
 
 

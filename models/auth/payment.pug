@@ -1,0 +1,38 @@
+.form-payment
+  .form-payment__img
+    img(src="images/icons/payment.svg", alt="payment")
+  form.form.form--payment
+   
+    h1.form__title.form__title--payment Получите неограниченный  доступ ко всем сервисам
+    p.form__desc.form__des--payment Выберите способ оплаты:
+    .form-payment__content
+      .form-payment__adv
+        p.form__desc.form__des--payment ОПЛАТИТЬ ЧЕРЕЗ МОБИЛЬНЫЙ ТЕЛЕФОН
+        .form__price МТС 50 руб. /Мегафон 35 руб. сутки
+
+        .form-payment__content
+          .field
+            label.label Номер телефона
+            input(type="text" placeholder="Номер").input
+            span.message Обязательное поле
+          .form-payment__imgs
+            img(src="images/payment/megafon.png", alt="megafon")
+            img(src="images/payment/mts.png", alt="mts")
+        .btn__button
+          a(href="#").btn.btn--big.btn--green
+            span Получить код
+        p.form__desc Согласен с  правилами обработки персональных данных  и  правилами пользования сервисом.
+      
+      .form-payment__adv
+        p.form__desc.form__des--payment ОПЛАТИТЬ  MASTERCARD, VISA, <br>МИР
+        .form__price.form__price--card 399 рублей / 14 дней
+        .form-payment__icons
+          img(src="images/payment/mastercard.png", alt="mastercard")
+          img(src="images/payment/visa.png", alt="visa")
+          img(src="images/payment/mir.png", alt="mir")
+        .btn__button
+          a(href="#").btn.btn--big.btn--green
+            span Получить код
+        p.form__desc Согласен с  правилами обработки персональных данных  и  правилами пользования сервисом.
+
+  

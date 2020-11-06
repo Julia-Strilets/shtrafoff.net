@@ -1,0 +1,32 @@
+form.form.form--service
+  .form__info.form__info--service
+    img(src="images/icons/icon-service.svg", alt="forgot").form__icon
+    h1.form__title Служба поддержки клиентов
+    p.form__desc У Вас возникли вопросы? Отправьте нам сообщение
+    .form__fields
+
+      .fields__info
+        .field.field--service
+          label.label Электронная почта
+          input(type="e-mail" placeholder="Название организации").input
+          span.message Обязательное поле
+
+        .field.field--service
+          label.label Номер телефона
+          input(type="text" placeholder="Название организации").input
+          span.message Обязательное поле
+
+      .field
+        label.label Тема сообщения
+        input(type="text" placeholder="Название организации").input
+        span.message Обязательное поле
+
+      .field
+        label.label Текст сообщения
+        textarea.textarea
+        span.message Обязательное поле
+    
+
+    .btn__button
+      a(href="#").btn.btn--big.btn--green
+        span Отправить сообщение

@@ -1,0 +1,96 @@
+.form__title {
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 17px;
+  text-align: center;
+
+  @media screen and(max-width: 1200px) {
+    font-size: 17px;
+    margin-bottom: 14px;
+  }
+}
+
+.form__title--payment  {
+  text-align: left;
+  font-size: 30px;
+  color: #0BA768;
+  margin-bottom: 27px;
+
+  @media screen and(max-width: 1200px) {
+    font-size: 16px;
+    margin-bottom: 7px;
+  }
+}
+.form__desc {
+  font-size: 16px;
+  color: #183557;
+  text-align: center;
+  margin-bottom: 16px;
+
+  @media screen and(max-width: 1200px) {
+    font-size: 12px;
+    margin-bottom: 14px;
+  }
+}
+
+.form__des--payment {
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 28px;
+  text-align: left;
+
+  @media screen and(max-width: 1200px) {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+}
+
+.form__desc--unsubscribe  {
+  margin-bottom: 0;
+}
+
+.form__desc--pink {
+  color: #DF1E54;
+  font-weight: bold;
+}
+
+.message {
+  display: none;
+  font-weight: 500;
+  font-size: 16px;
+  color: #DF1E54;
+}
+
+.form__caption  {
+  font-weight: 600;
+  font-size: 16px;
+  color: #183557;
+  text-align: center;
+
+  a {
+    color: #136B9F;
+
+    @media screen and(max-width: 1200px) {
+     display: block;
+     margin-top: 2px;
+    }
+  }
+
+  @media screen and(max-width: 1200px) {
+    font-size: 14px;
+  }
+}
+
+.form__price {
+  background: #EEF0F3;
+  border-radius: 6px;
+  padding: 8px 50px;
+  height: 61px;
+  font-size: 20px;
+  color: #183557;
+  margin-bottom: 9px;
+}
+
+.form__price--card {
+  margin-bottom: 35px;
+}

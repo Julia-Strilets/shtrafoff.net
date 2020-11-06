@@ -1,28 +1,30 @@
 form.form
 
-
-  img(src="images/icons/author.svg", alt="human").form__icon
-  h1.form__title Авторизация
-  .form__fields
-    .field
-      label.label Email или номер телефона
-      input(type="text" placeholder="Название организации").input
-      span.message Обязательное поле
-    .field
-      label.label Пароль
-      input(type="text" placeholder="Название организации").input
-      pan.message Обязательное поле
+  .form__info
+    img(src="images/icons/author.svg", alt="human").form__icon
+    h1.form__title Авторизация
+    .form__fields
+      .field
+        label.label Email или номер телефона
+        input(type="text" placeholder="Название организации").input
+        span.message Обязательное поле
+      .field
+        label.label Пароль
+        input(type="text" placeholder="Название организации").input
+        pan.message Обязательное поле
     
-  .form__control
-    label.form__label
-      .form__checkbox
-        input(type="checkbox")
-        div
-      | Запомнить меня 
-  .btn__button
-    a(href="#").btn.btn--big.btn--green
-      span Войти
-  .form__gup
+    .form__control
+      label.form__label
+        .form__checkbox
+          input(type="checkbox")
+          div
+        | Запомнить меня 
+    .btn__button
+      a(href="#").btn.btn--big.btn--green
+        span Войти
 
-  .form__caption Вы впервые на сайте?
-  a(href="").form__reg Зарегистрироваться сейчас
+  .form__bottom     
+    .form__gup
+
+    .form__caption Вы впервые на сайте?
+    a(href="").form__reg Зарегистрироваться сейчас

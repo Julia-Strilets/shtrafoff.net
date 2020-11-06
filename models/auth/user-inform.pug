@@ -1,0 +1,61 @@
+form.form
+  .form__info
+    img(src="images/icons/human.svg", alt="human").form__icon
+    p.form__desc Вы успешно зарегистрировались! Введите Ваши данные для проверки долгов:
+    .form__fields
+      .field
+        label.label Фамилия
+        input(type="text" placeholder="Название организации").input
+        span.message Обязательное поле
+      .field
+        label.label Имя
+        input(type="text" placeholder="Название организации").input
+        span.message Обязательное поле
+      
+      .field
+        label.label Отчество
+        input(type="text" placeholder="Название организации").input
+        span.message Обязательное поле
+
+
+      .field
+        label.label Дата рождения
+        .field__selects
+          select.input.input--selects
+            option(value="01") День
+            option(value="01") 01
+            option(value="02") 02
+            option(value="03") 03
+          select.input.input--selects.input--month
+            option(value="01") Месяц
+            option(value="01") январь
+            option(value="02") февраль
+            option(value="03") март
+          select.input.input--selects
+            option(value="01") Год
+            option(value="01") 1960
+            option(value="02") 1980
+            option(value="03") 1990
+        span.message Обязательное поле
+
+
+
+      .field
+        label.label Регион
+        input(type="text" placeholder="Название организации").input
+        span.message Обязательное поле
+  
+
+    .btn__button
+      a(href="#").btn.btn--big.btn--green
+        span Далее
+
+    .form__pagination
+      .circle-paginator
+        .circle-paginator__item.circle-paginator__item--active
+        .circle-paginator__item
+        .circle-paginator__item
+
+
+          
+

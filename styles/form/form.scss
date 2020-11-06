@@ -1,31 +1,60 @@
-.auth-form {
-  margin-top: 102px;
-  margin-bottom: 179px;
-
-  @media screen and(max-width: 1200px) {
-    margin-top: 54px;
-    margin-bottom: 40px;
-  }
-}
-
-.auth-content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
 .form {
   margin: 0 auto;
   max-width: 580px;
   width: 100%;
-  padding: 30px 110px 47px;
   border: 1px solid #D6D7DB;
   box-shadow: 0px 0px 16px #4FB4EF;
   border-radius: 6px;
   background-color: #FFFFFF;
+}
+
+.form--service {
+  max-width: 799px;
+  width: 100%;
+}
+
+.form--unsubscribe {
+  max-width: 604px;
+  width: 100%;
+}
+
+
+.form__info {
+  padding: 30px 110px 47px;
 
   @media screen and(max-width: 1200px) {
     padding: 18px 10px 22px;
+  }
+}
+
+.form__info--service {
+    padding: 20px 50px 60px;
+
+    @media screen and(max-width: 1200px) {
+      padding: 18px 10px 30px;
+  }
+}
+
+.form__info--unsubscribe {
+  padding: 20px 100px 0px;
+
+  @media screen and(max-width: 1200px) {
+    padding: 18px 10px 0px;
+  }
+}
+
+.form__clarification {
+  padding: 0px 20px;
+
+  @media screen and(max-width: 1200px) {
+    padding: 0px 10px;
+  }
+}
+
+.form__bottom {
+  padding: 0px 40px 46px;
+  @media screen and(max-width: 1200px) {
+    padding: 0px 10px 22px;
   }
 }
 
@@ -42,109 +71,41 @@
   }
 }
 
-.form__title {
-  font-weight: bold;
-  font-size: 28px;
-  margin-bottom: 17px;
-  text-align: center;
+.fields__info {
+  display: flex;
+  width: 100%;
 
   @media screen and(max-width: 1200px) {
-    font-size: 17px;
     margin-bottom: 14px;
-  }
-}
-
-.form__desc {
-  font-size: 16px;
-  color: #183557;
-  text-align: center;
-  margin-bottom: 16px;
-
-  @media screen and(max-width: 1200px) {
-    font-size: 12px;
-    margin-bottom: 14px;
+    flex-wrap: wrap;
   }
 }
 
 .form__fields {
   margin-bottom: 36px;
+
   @media screen and(max-width: 1200px) {
     margin-bottom: 18px;
   }
 }
 
-
-.field {
-
-  &--error {
-    
-    .input, .input:focus, .input:hover {
-      border: 1px solid #DF1E54;
-    }
-
-    .message {
-      display: block;
-    }
-  }
+.field--service {
+  width: 49%;
 
   &:not(:last-child) {
-    margin-bottom: 25px;
+    margin-right: 36px;
 
     @media screen and(max-width: 1200px) {
-      margin-bottom: 14px;
+     margin-right: 0;
     }
   }
-  
-}
-
-.label {
-  display: block;
-  margin-bottom: 3px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  color: #9CB8C2;
-
   @media screen and(max-width: 1200px) {
-    font-size: 12px;
-    margin-bottom: 2px;
+    width: 100%;
   }
 }
 
-.input {
-  display: block;
-  border: 1px solid rgba(0,0,0,0);
-  outline: none;
-  width: 100%;
-  height: 40px;
-  background: #F9FDFF;
-  box-shadow: inset 0px 0px 4px #A4C6DA;
-  border-radius: 6px;
-  padding: 10px 16px;
-  font-weight: 500;
-  font-size: 16px;
-  color: #183557;
-  margin-bottom: 3px;
-
-  &::placeholder {
-    color: #9CB8C2;
-  }
-
-  &:focus, &:hover {
-    border: 1px solid #183557;
-  }
-
-  @media screen and(max-width: 1200px) {
-    height: 30px;
-    font-size: 12px;
-  }
-}
-
-.message {
-  display: none;
-  font-weight: 500;
-  font-size: 16px;
-  color: #DF1E54;
+.field__selects {
+  display: flex;
 }
 
 .form__control {
@@ -166,53 +127,6 @@
   font-weight: 500;
   font-size: 16px;
   color: #136B9F;
-
-}
-
-.form__checkbox {
-  position: relative;
-  margin-right: 10px;
- 
-
-  div {
-    width: 18px;
-    height: 18px;
-    border: 0.5px solid #C4C4C4;
-    border-radius: 2px;
-    position: relative;
-    
-
-    &:before, &:after {
-      content: "";
-      display: block;
-      width: 2px;
-      background: white;
-      position: absolute;
-    }
-
-    &::before {
-      height: 6px;
-      left:5px;
-      top: 8px;
-      transform: rotate(-45deg);
-    }
-    &::after {
-      height: 10px;
-      top: 5px;
-      right:5px;
-      transform: rotate(45deg);
-    }
-  }
-
-  input {
-    position: absolute;
-    z-index: -1;
-  }
-
-  input:checked + div {
-    background-color: rgb(7, 162, 135);
-    border-color: rgb(7, 162, 135);
-  }
 }
 
 .form__gup {
@@ -224,27 +138,6 @@
   @media screen and(max-width: 1200px) {
    margin-bottom: 14px;
    }
-
-}
-
-.form__caption  {
-  font-weight: 600;
-  font-size: 16px;
-  color: #183557;
-  text-align: center;
-
-  a {
-    color: #136B9F;
-
-    @media screen and(max-width: 1200px) {
-     display: block;
-     margin-top: 2px;
-    }
-  }
-
-  @media screen and(max-width: 1200px) {
-    font-size: 14px;
-  }
 }
 
 .form__reg {
