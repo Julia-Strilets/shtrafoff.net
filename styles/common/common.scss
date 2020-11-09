@@ -8,6 +8,10 @@ body {
   font-family: 'Gilroy'; 
 }
 
+.auth-page {
+  background: url(~img/bg/regbg.jpg);
+}
+
 .content {
   min-height: calc(100vh -125px - 466px);
   // min-height = calc(display height - header height - footer height) 
@@ -15,7 +19,6 @@ body {
 
 .content--auth {
   min-height: calc(100vh - 81px - 466px);
-  
 }
 
 .container {
