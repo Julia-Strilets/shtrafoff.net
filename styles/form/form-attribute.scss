@@ -18,6 +18,13 @@
       margin-bottom: 14px;
     }
   }
+}
+
+.field--payment {
+
+  &:not(:last-child) {
+    margin-bottom: 0;
+  }
   
 }
 
@@ -28,6 +35,7 @@
   font-size: 16px;
   line-height: 19px;
   color: #9CB8C2;
+  text-align: left;
 
   @media screen and(max-width: 1200px) {
     font-size: 12px;
@@ -123,6 +131,11 @@
     border: 0.5px solid #C4C4C4;
     border-radius: 2px;
     position: relative;
+
+    @media screen and(max-width: 1200px) {
+      width: 14px;
+      height: 14px;
+    }
     
     &:before, &:after {
       content: "";
@@ -137,12 +150,25 @@
       left:5px;
       top: 8px;
       transform: rotate(-45deg);
+
+      @media screen and(max-width: 1200px) {
+        height: 4px;
+        left:2px;
+        top: 7px;
+      }
+      
     }
     &::after {
       height: 10px;
       top: 5px;
       right:5px;
       transform: rotate(45deg);
+
+      @media screen and(max-width: 1200px) {
+        height: 9px;
+        right:4px;
+        top: 4px;
+      }
     }
   }
 

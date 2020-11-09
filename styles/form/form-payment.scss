@@ -1,4 +1,5 @@
 .form-payment {
+  margin: 0 auto;
   max-width: 1104px;
   width: 100%;
   display: flex;
@@ -69,18 +70,29 @@
 
     @media screen and(max-width: 1200px) {
       margin-right: 0;
+      
     }
   }
 
   @media screen and(max-width: 1200px) {
     padding: 16px 10px;
+    margin-bottom: 14px;
   }
+}
+
+.form-payment__phone {
+  display: flex;
+  align-items: center;
+  margin-bottom: 7px;
 }
 
 .form-payment__imgs {
   display: flex;
+  margin-left: 6px;
   img {
     display: block;
+    width: 47px;
+    height: 29px;
     &:not(:last-child) {
       margin-right: 6px;
     }

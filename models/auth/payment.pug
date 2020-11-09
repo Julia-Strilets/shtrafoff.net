@@ -10,15 +10,16 @@
         p.form__desc.form__des--payment ОПЛАТИТЬ ЧЕРЕЗ МОБИЛЬНЫЙ ТЕЛЕФОН
         .form__price МТС 50 руб. /Мегафон 35 руб. сутки
 
-        .form-payment__content
-          .field
+        .form-payment__phone
+          .field.field--payment
             label.label Номер телефона
             input(type="text" placeholder="Номер").input
             span.message Обязательное поле
+            .label Пример: +7 132 864 38 83
           .form-payment__imgs
             img(src="images/payment/megafon.png", alt="megafon")
             img(src="images/payment/mts.png", alt="mts")
-        .btn__button
+        .btn__button.btn__button--payment
           a(href="#").btn.btn--big.btn--green
             span Получить код
         p.form__desc Согласен с  правилами обработки персональных данных  и  правилами пользования сервисом.
@@ -30,7 +31,7 @@
           img(src="images/payment/mastercard.png", alt="mastercard")
           img(src="images/payment/visa.png", alt="visa")
           img(src="images/payment/mir.png", alt="mir")
-        .btn__button
+        .btn__button.btn__button--payment
           a(href="#").btn.btn--big.btn--green
             span Получить код
         p.form__desc Согласен с  правилами обработки персональных данных  и  правилами пользования сервисом.

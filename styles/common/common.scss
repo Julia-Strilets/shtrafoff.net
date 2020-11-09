@@ -9,12 +9,12 @@ body {
 }
 
 .content {
-  min-height: calc(100vh - 40px - 40px);
+  min-height: calc(100vh -125px - 466px);
   // min-height = calc(display height - header height - footer height) 
 }
 
 .content--auth {
-  min-height: calc(100vh - 125px - 236px);
+  min-height: calc(100vh - 81px - 466px);
   
 }
 
@@ -25,8 +25,8 @@ body {
   margin: 0 auto;
 
   @media screen and(max-width: 1000px) {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 21px;
+    padding-right: 21px;
   }
 }
 
