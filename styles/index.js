@@ -20,6 +20,10 @@ import './auth/auth.scss'
 
 import './user-info/user-info.scss'
 
+import './main/main.scss'
+import './main/main-top.scss'
+import './main/main-servises.scss'
+
 
 import './footer/footer-top.scss'
 import './footer/footer-bootom.scss'

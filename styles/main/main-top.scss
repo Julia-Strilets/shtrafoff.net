@@ -1,0 +1,32 @@
+
+.main-top__text {
+  color: #183557;
+  margin-bottom: 52px;
+}
+
+
+.main-top__title {
+  margin-bottom: 26px;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 73px;
+  
+}
+
+.main-top__desc {
+  max-width: 1007px;
+  width: 100%;
+  font-size: 22px;
+}
+
+.main-top__btns {
+  display: flex;
+  max-width: 586px;
+  width: 100%;
+}
+
+.btn--main-top {
+  &:not(:last-child) {
+    margin-right: 14px;
+  }
+}
