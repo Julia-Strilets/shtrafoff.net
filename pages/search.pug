@@ -11,12 +11,10 @@ body.body.auth-page
  
   include ../views/header/header-auth_reg
   
-  
-  main.content.content--auth
-    //- include your pug here
-    .form__auth
-      .container
-        include ../models/auth/search
-  footer
+  main.content--auth
+    .container
+      include ../models/auth/search
+
+  footer.footer--light
     include ../views/footer/footer-top
     include ../views/footer/footer-bottom

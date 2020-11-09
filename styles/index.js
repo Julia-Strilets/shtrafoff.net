@@ -13,6 +13,7 @@ import './form/form.scss'
 import './form/form-text.scss'
 import './form/form-attribute.scss'
 import './form/form-payment.scss'
+import './form/checkbox.scss'
 import './auth/auth.scss'
 
 
@@ -26,6 +27,7 @@ import './main/main-servises.scss'
 import './main/main-advantage.scss'
 
 
+import './footer/footer.scss'
 import './footer/footer-top.scss'
 import './footer/footer-bootom.scss'
 import './footer/text-name.scss'

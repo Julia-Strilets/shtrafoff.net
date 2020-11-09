@@ -10,16 +10,23 @@ body {
 
 .auth-page {
   background: url(~img/bg/regbg.jpg);
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
+  background-position: center top;
+  background-size: auto 840px;
 }
 
 .content {
-  min-height: calc(100vh -125px - 466px);
-  // min-height = calc(display height - header height - footer height) 
+  min-height: calc(100vh - 125px - 466px);
 }
 
 .content--auth {
-  min-height: calc(100vh - 81px - 466px);
+  padding: 40px 0 100px;
+  min-height: calc(100vh - 125px - 466px);
+
+  @media screen and(max-width: 1200px) {
+    padding: 20px 0;
+    min-height: unset;
+  }
 }
 
 .container {

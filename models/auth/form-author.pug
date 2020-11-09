@@ -13,12 +13,14 @@ form.form
         input(type="text" ).input
         pan.message Обязательное поле
     
-    .form__control
-      label.form__label
-        .form__checkbox
+    .form__checkbox
+      label.checkbox
+        .checkbox__indicator
           input(type="checkbox")
           div
-        | Запомнить меня 
+        .checkbox__text
+          b Запомнить меня
+    
     .btn__button
       a(href="#").btn.btn--big.btn--green
         span Войти

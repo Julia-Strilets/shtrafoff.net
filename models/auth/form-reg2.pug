@@ -8,20 +8,22 @@ form.form
         label.label Номер телефона
         input(type="text").input
         span.message Обязательное поле
-  
 
     .btn__button
       a(href="#").btn.btn--big.btn--green
         span Зарегистрироваться
 
-    .form__control
-      label.form__label
-        .form__checkbox
+    .form__checkbox
+      //- new element
+      label.checkbox
+        .checkbox__indicator
           input(type="checkbox")
           div
-        | Согласен с правилами обработки персональных  данных и правилами пользования сервисом.
-          
-
+        .checkbox__text
+          | Согласен с 
+          a.checkbox__link(href="#") правилами обработки персональных данных 
+          | и 
+          a.checkbox__link(href="#") правилами пользовани
           
   .form__bottom
     .form__gup
