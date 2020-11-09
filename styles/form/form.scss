@@ -1,5 +1,5 @@
-.form__reg1 {
-  margin-top: 99px;
+.form__auth {
+  margin-top: 34px;
   margin-bottom: 179px;
 
   @media screen and(max-width: 1200px) {
@@ -8,46 +8,6 @@
   }
 }
 
-.form__reg2 {
-  margin-top: 83px;
-  margin-bottom: 144px;
-
-  @media screen and(max-width: 1200px) {
-    margin-top: 54px;
-    margin-bottom: 91px;
-  }
-}
-
-.form__author {
-  margin-top: 122px;
-  margin-bottom: 138px;
-
-  @media screen and(max-width: 1200px) {
-    margin-top: 51px;
-    margin-bottom: 79px;
-  }
-}
-
-
-.form__forget {
-  margin-top: 142px;
-  margin-bottom: 283px;
-
-  @media screen and(max-width: 1200px) {
-    margin-top: 51px;
-    margin-bottom:192px;
-  }
-}
-.form__service {
-  margin-top: 47px;
-  margin-bottom:158px;
-
-  @media screen and(max-width: 1200px) {
-    margin-top: 54px;
-    margin-bottom: 14px;
-  }
-
-}
 
 .form {
   margin: 0 auto;

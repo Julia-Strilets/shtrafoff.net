@@ -105,3 +105,12 @@
 .form__price--card {
   margin-bottom: 35px;
 }
+
+.form__agreement {
+  text-align: left;
+  font-weight: 300;
+  font-size: 16px;
+  @media screen and(max-width: 1200px) {
+    font-size: 12px;
+  }
+}

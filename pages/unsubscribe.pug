@@ -7,14 +7,14 @@ html(lang="ru")
     meta(name="description", content="description")
     link(rel="shortcut icon", href="static/favicon.ico", type="image/x-icon")
 
-body.body
+body.body.auth-page
  
   include ../views/header/header-auth_reg
   
   
   main.content.content--auth
     //- include your pug here
-    .form__service
+    .form__auth
       .container
         include ../models/auth/unsubscribe
   footer
