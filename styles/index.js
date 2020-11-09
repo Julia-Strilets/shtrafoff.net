@@ -8,7 +8,6 @@ import './logo/logo.scss'
 import './btn/btn.scss'
 import './nav/nav.scss'
 
-
 import './form/form.scss'
 import './form/form-text.scss'
 import './form/form-attribute.scss'
@@ -16,16 +15,12 @@ import './form/form-payment.scss'
 import './form/checkbox.scss'
 import './auth/auth.scss'
 
-
-
-
 import './user-info/user-info.scss'
 
 import './main/main.scss'
 import './main/main-top.scss'
 import './main/main-servises.scss'
 import './main/main-advantage.scss'
-
 
 import './footer/footer.scss'
 import './footer/footer-top.scss'
