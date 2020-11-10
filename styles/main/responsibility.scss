@@ -1,16 +1,30 @@
 .responsibility {
   padding-top: 59px;
   padding-bottom: 137px;
+
+  @media screen and(max-width: 1200px) {
+    padding-top: 11px;
+    padding-bottom: 35px;
+  }
 }
 
 .responsibility__cards {
   display: flex;
   justify-content: space-between;
   margin-bottom: 108px;
+
+  @media screen and(max-width: 1200px) {
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+  }
 }
 
 .responsibility__feature {
   display: flex;
+
+  @media screen and(max-width: 1200px) {
+    flex-wrap: wrap;
+  }
 }
 
 .responsibility__img {
@@ -18,4 +32,9 @@
   max-width: 788px;
   width: 100%;
   height: 443px;
+
+  @media screen and(max-width: 1200px) {
+    height: 168px;
+    
+  }
 }
