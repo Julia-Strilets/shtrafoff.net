@@ -2,12 +2,22 @@
   position: relative;
   padding-top: 104px;
   padding-bottom: 102px;
+
+  @media screen and(max-width: 1200px) {
+    padding-top: 22px;
+    padding-bottom: 32px;
+  }
 }
 
 
 .main-top__text {
   color: #183557;
   margin-bottom: 52px;
+
+  @media screen and(max-width: 1200px) {
+    margin-bottom: 20px;
+    text-align: center;
+  }
 }
 
 
@@ -16,23 +26,45 @@
   font-weight: bold;
   font-size: 60px;
   line-height: 73px;
-  
+
+  @media screen and(max-width: 1200px) {
+    font-size: 17px;
+    line-height: 21px;
+    margin-bottom: 4px;
+    text-align: center;
+  } 
 }
 
 .main-top__desc {
   max-width: 1007px;
   width: 100%;
   font-size: 22px;
+
+  @media screen and(max-width: 1200px) {
+    font-size: 13px;
+    line-height: 16px;
+  } 
 }
 
 .main-top__btns {
   display: flex;
   max-width: 586px;
   width: 100%;
+  
+  @media screen and(max-width: 1200px) {
+    flex-wrap: wrap;
+  } 
 }
 
 .btn--main-top {
+  box-shadow: unset;
+
   &:not(:last-child) {
     margin-right: 14px;
+
+    @media screen and(max-width: 1200px) {
+     margin-right: 0;
+     margin-bottom: 10px;
+    }
   }
 }

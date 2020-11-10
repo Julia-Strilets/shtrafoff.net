@@ -1,6 +1,10 @@
 .main {
   margin-top: 25px;
-}
+
+  @media screen and(max-width: 1200px) {
+    margin-top: 19px;
+  }
+}   
 
 .main__bg{
   position: absolute;
@@ -21,5 +25,12 @@
   line-height: 34px;
   text-align: center;
   margin-bottom: 68px;
+
+  @media screen and(max-width: 1200px) {
+    margin-bottom: 8px;
+    font-size: 18px;
+    line-height: 34px;
+    font-weight: 600;
+  }
 }
 
