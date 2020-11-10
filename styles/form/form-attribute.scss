@@ -1,11 +1,8 @@
 .field {
-
   &--error {
-    
     .input, .input:focus, .input:hover {
       border: 1px solid #DF1E54;
     }
-
     .message {
       display: block;
     }
@@ -18,14 +15,6 @@
       margin-bottom: 14px;
     }
   }
-}
-
-.field--payment {
-
-  &:not(:last-child) {
-    margin-bottom: 0;
-  }
-  
 }
 
 .label {
@@ -90,7 +79,6 @@
     padding: 8px 25px 8px 14px;
     background-position: 50px 13px;
   }
-  
 }
 
 .input--month {
@@ -114,7 +102,6 @@
   resize: none;
   font-size: 16px;
 
-  
   @media screen and(max-width: 1200px) {
     height: 30px;
     font-size: 12px;

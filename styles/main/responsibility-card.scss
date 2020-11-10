@@ -1,0 +1,70 @@
+.responsibility-card {
+  max-width: 763px;
+  width: 100%;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 30px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.responsibility-card__top {
+  background: #F4F5F9;
+  border-radius: 5px 5px 0px 0px;
+  padding: 17px 48px;
+  display: flex;
+  // justify-content: space-between;
+  align-items: center;
+}
+
+.responsibility-card__img {
+  display: block;
+  margin-right: 35px;
+  width: 67px;
+  height: 74px;
+}
+
+.responsibility-card__title {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 22px;
+}
+
+.responsibility-card__bottom {
+  padding: 34px 65px 74px 48px;
+  height: 564px;
+}
+
+.responsibility-card__desc {
+  margin-bottom: 46px;
+}
+
+.responsibility-card__text {
+  font-size: 18px;
+  line-height: 24px;
+  color: #272E32;
+
+  &:not(:last-child) {
+    margin-bottom: 24px;
+  }
+}
+
+.responsibility-card__item  {
+  list-style-type: none;
+  display: flex;
+  align-items: flex-start;
+  font-size: 16px;
+  line-height: 20px;
+  color: #136B9F;
+
+  &:not(:last-child) {
+    margin-bottom: 25px;
+  }
+
+  &::before {
+    flex-shrink: 0;
+    content: "";
+    background-image: url(../../images/icons/responsibility.svg);
+    width: 27px;
+    height: 27px;
+    margin-right: 15px;
+  }
+}

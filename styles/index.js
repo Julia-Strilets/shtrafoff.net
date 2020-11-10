@@ -21,6 +21,13 @@ import './main/main.scss'
 import './main/main-top.scss'
 import './main/main-servises.scss'
 import './main/main-advantage.scss'
+import './main/service-works.scss'
+import './main/attention.scss'
+import './main/responsibility.scss'
+import './main/responsibility-card.scss'
+import './main/feature-card.scss'
+
+
 
 import './footer/footer.scss'
 import './footer/footer-top.scss'
