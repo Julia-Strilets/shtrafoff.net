@@ -1,0 +1,117 @@
+.dash-card {
+  max-width: 395px;
+  width: 100%;
+  background: #FFFFFF;
+  border: 0.5px solid #D6D7DB;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  padding: 28px 20px 14px;
+  color: #183557;
+  margin-bottom: 10px;
+
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+
+
+.dash-card--not-active {
+  color: #9CB8C2;
+
+  .debts__amount,
+  .dash-card__icon,
+  .debts__icon,
+  .dash-card__value {
+    display: none;
+  }
+
+  .dash-card__icon--not-active,
+  .debts__no-quantity,
+  .dash-card__no-value {
+    display: block;
+  }
+
+  .dash-card__no-value {
+    span {
+      display: block;
+    }
+  }
+
+  .dash-card__title {
+    color: #183557;
+  }
+}
+
+.dash-card__icons {
+  width: 84px;
+  height: 84px;
+  margin-bottom: 8px;
+}
+
+.dash-card__icon--not-active,
+.debts__no-quantity,
+.dash-card__no-value {
+  display: none;
+}
+
+.dash-card__title {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 21px;
+  margin-bottom: 17px;
+}
+
+.dash-card__debts {
+  display: flex;
+  align-items: center;
+  margin-bottom: 22px;
+  border-bottom: 2px solid #D5DEEB;
+  padding-bottom: 21px;
+}
+
+.debts__icon {
+  display: block;
+}
+
+.debts__text {
+  max-width: 113px;
+  width: 100%;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 14px;
+  margin-right: 63px;
+  margin-left: 18px;
+}
+
+.debts__amount {
+  width: 29px;
+  height: 29px;
+  border-radius: 100%;
+  color: #DD0F49;
+  font-weight: 600;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:rgba(223, 30, 84, 0.2);
+}
+
+.dash-card__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dash-card__btn {
+  flex-shrink: 0;
+}
+
+.dash-card__value {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: right;
+
+  span {
+    display: block;
+  }
+}

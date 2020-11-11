@@ -1,0 +1,16 @@
+.dash
+  .container
+    .dash__content
+      .dash__sidebar
+        include ../../models/dash/sidebar-card
+
+      .dash__info
+        .dash__cards.dash-card--not-active
+          include ../../models/dash/dash-card_vehicles
+          include ../../models/dash/dash-card_tex-debts
+          include ../../models/dash/dash-card_drivers
+          include ../../models/dash/dash-card_individuals
+          include ../../models/dash/dash-card_legal
+
+        .dash__search
+          include ../../models/dash/searching-results

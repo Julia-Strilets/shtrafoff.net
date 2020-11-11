@@ -1,0 +1,27 @@
+.found-record {
+  background: #FFFFFF;
+  border: 0.5px solid #D6D7DB;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 18px 14px 29px;
+}
+
+.found-record__card {
+  display: flex;
+}
+
+
+.found-record__amount  {
+  span {
+    display: block;
+  }
+}
+.card__date  {
+  display: flex;
+}
+
+.found-record--activ {
+  background: #F2F8FF;
+}

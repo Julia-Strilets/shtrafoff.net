@@ -71,4 +71,7 @@
   flex-shrink: 0;
   max-width: 286px;
   width: 100%;
+  @media screen and(max-width: 1200px) {
+   margin: 0 auto;
+  }
 }

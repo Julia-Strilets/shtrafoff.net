@@ -28,6 +28,13 @@ import './main/responsibility-card.scss'
 import './main/feature-card.scss'
 
 
+import './dash/dash.scss'
+import './dash/dash-card.scss'
+import './dash/sidebar-card.scss'
+import './dash/searching-results.scss'
+import './dash/found-record.scss'
+
+
 
 import './footer/footer.scss'
 import './footer/footer-top.scss'
