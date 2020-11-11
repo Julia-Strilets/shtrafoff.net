@@ -3,23 +3,107 @@
   border: 0.5px solid #D6D7DB;
   border-radius: 5px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 13px 18px 14px 29px;
+
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+
+.found-record__icon {
+  display: block;
+  width: 21px;
+  height: 21px;
+  margin-right: 28px;
+}
+
+.found-record__name {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #605858;
+  margin-right: 39px;
+}
+
+.found-record__amounts {
+  margin-right: 60px;
+}
+
+.found-record__amount  {
+  font-size: 16px;
+  line-height: 14px;
+  color: #183557;
+
+  &:not(:last-child) {
+    margin-bottom: 5px;
+  }
+}
+
+.found-record__text {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color: #DD0F49;
+  margin-right: 35px;
+
+  &::before {
+    flex-shrink: 0;
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background-color: #DD0F49;
+    margin-right: 5px;
+  }
 }
 
 .found-record__card {
   display: flex;
+  align-items: center;
+  flex-shrink: 0;
 }
 
-
-.found-record__amount  {
-  span {
-    display: block;
-  }
+.card__icon {
+  display: block;
+  width: 36px;
+  height: 36px;
+  margin-right: 15px;
 }
+
+.card__text {
+  margin-right:8px;
+}
+
+.card__name {
+  width: 350px;
+  flex-shrink: 0;
+  font-size: 16px;
+  line-height: 16px;
+  color: #183557;
+  margin-bottom: 8px;
+}
+
 .card__date  {
   display: flex;
+}
+
+
+.date {
+  font-size: 14px;
+  line-height: 14px;
+  color: #9CB8C2;
+}
+.date__icon {
+  margin-right: 9px;
+}
+
+.card__btn {
+  flex-shrink: 0;
+  max-width: 180px;
+  width: 100%;
 }
 
 .found-record--activ {
