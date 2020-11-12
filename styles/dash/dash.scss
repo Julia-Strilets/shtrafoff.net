@@ -1,20 +1,7 @@
 .dash {
+  width: 100%;
   background: #F4F5F9;
   padding-bottom: 94px;
-}
-
-.dash__content {
-  display: flex;
-  width: 100%;
-  margin-top: 14px;
-  
-}
-
-.dash__sidebar {
-  margin-right: 10px;
-  flex-shrink: 0;
-  max-width: 360px;
-  width: 100%;
 }
 
 .dash__cards {

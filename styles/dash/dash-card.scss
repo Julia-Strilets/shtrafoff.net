@@ -16,7 +16,7 @@
 
 
 .dash-card--not-active {
-  color: #9CB8C2;
+  
 
   .debts__amount,
   .dash-card__icon,
@@ -39,6 +39,11 @@
 
   .dash-card__title {
     color: #183557;
+  }
+
+  .debts__text,
+  .dash-card__no-value  {
+    color: #9CB8C2;
   }
 }
 

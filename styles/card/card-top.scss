@@ -1,0 +1,37 @@
+.card__icon {
+  display: block;
+  width: 21px;
+  height: 21px;
+  margin-right: 41px;
+
+  @media screen and(max-width: 1200px) {
+    margin-right: 8px;
+   } 
+}
+.card__reduction {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #605858;
+  margin-right: 31px;
+
+  @media screen and(max-width: 1200px) {
+    font-size: 14px;
+    margin-right: 0;
+   } 
+}
+
+.card__title {
+  color: #136B9F;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 30px;
+
+  @media screen and(max-width: 1200px) {
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 6px;
+    width: 100%;
+    
+  } 
+}

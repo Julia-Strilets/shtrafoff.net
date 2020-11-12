@@ -1,11 +1,11 @@
 .dash
   .container
    
-    .dash__content
-      .dash__sidebar
+    .content-block 
+      .sidebar
         include ../../models/dash/sidebar-card
 
-      .dash__info
+      .info
         .dash__cards
           include ../../models/dash/dash-card_vehicles
           include ../../models/dash/dash-card_tex-debts
@@ -14,11 +14,11 @@
           include ../../models/dash/dash-card_legal
         .dash__title Найденные записи
         .dash__found-records
-          .found-record.found-record--activ
-            include ../../models/dash/found-record
           .found-record
-            include ../../models/dash/found-record
-          .found-record
-            include ../../models/dash/found-record
+            include ../../models/dash/found-record-human
           .found-record.found-record--activ
-            include ../../models/dash/found-record
+            include ../../models/dash/found-record-auto
+          .found-record
+            include ../../models/dash/found-record-legal
+          .found-record.found-record--activ
+            include ../../models/dash/found-record-human

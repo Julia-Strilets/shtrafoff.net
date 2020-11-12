@@ -34,6 +34,10 @@ import './dash/sidebar-card.scss'
 import './dash/searching-results.scss'
 import './dash/found-record.scss'
 
+import './card/card.scss'
+import './card/card-cost.scss'
+import './card/card-top.scss'
+
 
 
 import './footer/footer.scss'
