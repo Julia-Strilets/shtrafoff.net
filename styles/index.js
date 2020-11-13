@@ -43,7 +43,7 @@ import './popup/popup.scss'
 import './settings/settings.scss'
 import './settings/setting-top.scss'
 import './settings/personal-data.scss'
-import './settings/settings.scss'
+import './settings/security.scss'
 
 import './footer/footer.scss'
 import './footer/footer-top.scss'
