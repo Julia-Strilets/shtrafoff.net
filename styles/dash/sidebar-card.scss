@@ -13,6 +13,10 @@
   margin-bottom: 28px;
   display: flex;
   padding-left: 24px;
+
+  @media screen and(max-width: 1200px) {
+    margin-bottom: 10px;
+   }
 }
 
 .sedebar-card__label  {
@@ -22,6 +26,10 @@
   color: #575454;
   font-size: 16px;
   line-height: 19px;
+
+  @media screen and(max-width: 1200px) {
+    font-size: 13px;
+   }
 
   
   input {
@@ -43,6 +51,7 @@
     @media screen and (min-width: 1200px){
       width: 35px;
       height: 20px;
+      margin-right: 15px;
     }
 
     &::before {
@@ -85,6 +94,10 @@
 
   &:not(:last-child) {
     margin-bottom: 20px;
+
+    @media screen and(max-width: 1200px) {
+      margin-bottom: 9px;
+     }
   }
 }
 
@@ -94,6 +107,11 @@
   margin-left: 21px;
   width: 32px;
   height: 32px;
+
+  @media screen and(max-width: 1200px) {
+    width: 25px;
+    height: 25px;
+   }
 }
 
 .sedebar-card__link {
@@ -101,6 +119,10 @@
   font-size: 17px;
   line-height: 20px;
   color: #8B9AAF;
+
+  @media screen and(max-width: 1200px) {
+    font-size: 14px;
+   }
 }
 
 .sedebar-card__item--activ {
@@ -145,6 +167,11 @@
 .sedebar-card__gup {
   padding: 0px 46px;
   margin-bottom: 18px;
+
+  @media screen and(max-width: 1200px) {
+    margin-bottom: 12px;
+    padding: 0 32px;
+   }
 }
 
 .gup {
@@ -158,6 +185,11 @@
   padding-left: 46px;
   padding-right: 115px;
   margin-bottom: 19px;
+
+  @media screen and(max-width: 1200px) {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
 }
 .sedebar-card__icon {
   margin-right: 8px;
@@ -172,9 +204,21 @@
 
   span {
     display: block;
+    @media screen and(max-width: 1200px) {
+      margin-left: 8px;
+     }
   }
+
+  @media screen and(max-width: 1200px) {
+    font-size: 12px;
+    display: flex;
+   }
 }
 
 .sedebar-card__btn {
   padding: 0 46px;
+
+  @media screen and(max-width: 1200px) {
+   padding: 0 15px;
+   }
 }

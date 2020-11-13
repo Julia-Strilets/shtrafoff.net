@@ -35,13 +35,17 @@
 }
 
 .cost__amount {
+  width: 288px;
   padding-top: 34px;
-  height: 207px;
+  padding-bottom: 71px;
+  // height: 207px;
   background: #F1F7FE;
 
   @media screen and(max-width: 1200px) {
     padding-top: 10px;
+    padding-bottom: 10px;
     height: auto;
+    width: 100%;
    }
   
 }
@@ -62,10 +66,14 @@
   }
 }
 
-.card__btn {
-    margin: 0 auto;
+  .cost__btn {
+    display: flex;
+    justify-content: center;
+    padding: 0 54px;
+
   @media screen and(max-width: 1200px) {
     width: 100%;
-    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }

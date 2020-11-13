@@ -2,30 +2,14 @@
   .card__content
     .card__text
       .card__top
-        include ../../models/objects-card/card-top
+        include ../../models/objects-card/fssp/card-top
       .card__datas
-        .card__data
-          .card__name Инициатор
-          .card__description
-            p.card__desc Шелков М.В. +7(915)045-67-55
-            p.card__desc УФК по Московской области 
-              |(Домодедовский Городской РОСП 
-              |УФССП России по Московской области, Л/С 05481A21900)
-        .card__img
-          img(src="images/icons/red-arrow.svg", alt="arrow")
-
-        .card__data  
-          .card__name Физ. лицо
-          .card__iniciator
-            img(src="images/icons/human-ellips.svg", alt="human").card__image
-            p.card__desc.card__desc--name Красильников Вениамин Станиславович 
-              span 22.03.1982, Россия, Московская область
-      
-      
+        include ../../models/objects-card/fssp/card-data
+     
       .card__block
-        .card__name.card__name--desc Описание
-        .card__description
-          p.card__desc Постановление от 2020-08-12 00:00:00 2А-374/2020. Постановление о взыскании исполнительского сбора СУДЕБНЫЙ
+        .card-data__name Описание
+        .card-data__description
+          p.card-data__desc Постановление от 2020-08-12 00:00:00 2А-374/2020. Постановление о взыскании исполнительского сбора СУДЕБНЫЙ
             | УЧАСТОК № 38 МИРОВОГО СУДЬИ ДОМОДЕДОВСКОГО СУДЕБНОГО РАЙОНА МОСКОВСКОЙ ОБЛАСТИ
     .card__cost
-      include ../../models/objects-card/card-cost
+      include ../../models/objects-card/fssp/card-cost

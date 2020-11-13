@@ -1,0 +1,128 @@
+.card-data {
+  @media screen and(max-width: 1200px) {
+    width: 100%;
+    padding-left: 13px;
+    padding-right: 13px;
+   } 
+}
+.card_data__text-block {
+  &:not(:last-child) {
+   margin-bottom: 16px;
+
+   @media screen and(max-width: 1200px) {
+    margin-bottom: 12px;
+   } 
+  }
+}
+
+.card-data__name {
+  color: #136B9F;
+  font-size: 14px;
+  line-height: 20px;
+  padding-bottom: 2px;
+  border-bottom: 1px solid rgba(19, 107, 159, 0.25);
+  margin-bottom: 8px;
+}
+
+.card-data__description {
+  width: 100%;
+}
+
+
+.card-data__desc {
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+
+  &:not(:last-child) {
+    margin-bottom: 24px;
+
+    @media screen and(max-width: 1200px) {
+      margin-bottom: 12px;
+     } 
+  }
+  span {
+    display: block;
+  }
+  @media screen and(max-width: 1200px) {
+    font-size: 12px;
+   } 
+}
+
+.card-data__img {
+  align-self: center;
+  margin-right: 34px;
+  margin-left: 10px;
+  flex-shrink: 0;
+
+  img {
+    display: block;
+    width: 34px;
+    height: 23px;
+
+    @media screen and(max-width: 1200px) {
+      transform: rotate(90deg);
+     }
+  }
+  
+  @media screen and(max-width: 1200px) {
+    margin: 5px auto;
+   }
+}
+
+.card-data__iniciator {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 40px;
+
+  @media screen and(max-width: 1200px) {
+    margin-top: 10px;
+   }
+}
+
+.card-data__image {
+  display: block;
+  margin-right: 25px;
+  @media screen and(max-width: 1200px) {
+    margin-right: 13px;
+   }
+}
+
+.card-data__surname  {
+  width: 336px;
+  font-size: 16px;
+
+  span {
+    display: block;
+    @media screen and(max-width: 1200px) {
+      margin-bottom: 4px;
+     }
+  }
+
+  @media screen and(max-width: 1200px) {
+    width: 100%;
+    font-size: 12px;
+   }
+
+}
+
+.card-data__link {
+  margin-top: 19px;
+  display: flex;
+  justify-content: center;
+
+  a {
+    display: block;
+    font-size: 14px;
+    color: #136B9F;
+    border-bottom: 1px dashed #136B9F;
+    @media screen and(max-width: 1200px) {
+      font-size: 12px;
+     }
+  }
+
+  @media screen and(max-width: 1200px) {
+    margin-top: 12px;
+   }
+
+}

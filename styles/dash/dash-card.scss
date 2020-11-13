@@ -11,39 +11,14 @@
 
   &:not(:last-child) {
     margin-right: 10px;
-  }
-}
 
-
-.dash-card--not-active {
-  
-
-  .debts__amount,
-  .dash-card__icon,
-  .debts__icon,
-  .dash-card__value {
-    display: none;
-  }
-
-  .dash-card__icon--not-active,
-  .debts__no-quantity,
-  .dash-card__no-value {
-    display: block;
-  }
-
-  .dash-card__no-value {
-    span {
-      display: block;
+    @media screen and(max-width: 1200px) {
+      margin-right: 0;
     }
   }
 
-  .dash-card__title {
-    color: #183557;
-  }
-
-  .debts__text,
-  .dash-card__no-value  {
-    color: #9CB8C2;
+  @media screen and(max-width: 1200px) {
+    padding: 8px 8px 11px 8px;
   }
 }
 
@@ -51,11 +26,30 @@
   width: 84px;
   height: 84px;
   margin-bottom: 8px;
+
+  @media screen and(max-width: 1200px) {
+    width: 42px;
+    height: 42px;
+    margin-bottom: 4px;
+    margin-right: 6px;
+  } 
+}
+
+.dash-card__icon {
+  width: 100%;
+}
+
+.dash-card__logo {
+  @media screen and(max-width: 1200px) {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
 }
 
 .dash-card__icon--not-active,
 .debts__no-quantity,
-.dash-card__no-value {
+.dash-card__value {
   display: none;
 }
 
@@ -64,6 +58,12 @@
   font-size: 17px;
   line-height: 21px;
   margin-bottom: 17px;
+
+  @media screen and(max-width: 1200px) {
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 0;
+  }
 }
 
 .dash-card__debts {
@@ -72,10 +72,25 @@
   margin-bottom: 22px;
   border-bottom: 2px solid #D5DEEB;
   padding-bottom: 21px;
+
+  @media screen and(max-width: 1200px) {
+    border: none;
+    margin-bottom: 5px;
+    padding-bottom: 0;
+   }
 }
 
 .debts__icon {
   display: block;
+
+  @media screen and(max-width: 1200px) {
+   width: 16px;
+   height: 16px;
+  } 
+}
+
+.debts__icon--not-active {
+  display: none;
 }
 
 .debts__text {
@@ -86,6 +101,13 @@
   line-height: 14px;
   margin-right: 63px;
   margin-left: 18px;
+
+  @media screen and(max-width: 1200px) {
+    font-size: 14px;
+    line-height: 17px;
+    margin-right: 9px;
+    margin-left: 19px;
+  }
 }
 
 .debts__amount {
@@ -99,16 +121,32 @@
   align-items: center;
   justify-content: center;
   background-color:rgba(223, 30, 84, 0.2);
+
+  @media screen and(max-width: 1200px) {
+    width: 22px;
+    height: 22px;
+    font-size: 12px;
+   }
 }
 
 .dash-card__bottom {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media screen and(max-width: 1200px) {
+    flex-direction: column-reverse;
+    width: 100%;
+    justify-content: unset;
+  }
 }
 
 .dash-card__btn {
   flex-shrink: 0;
+
+  @media screen and(max-width: 1200px) {
+    width: 100%;
+  }
 }
 
 .dash-card__value {
@@ -118,5 +156,82 @@
 
   span {
     display: block;
+
+    @media screen and(max-width: 1200px) {
+      margin-left: 16px;
+     }
+  }
+
+  @media screen and(max-width: 1200px) {
+    display: flex;
+    text-align: left;
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 8px;
+   }
+}
+
+.dash-card__no-value  {
+  display: none;
+}
+
+// \\\\\\\\\
+.dash-card--not-active {
+
+  .debts__amount,
+  .dash-card__icon,
+  .debts__icon,
+  .dash-card__value {
+    display: none;
+  }
+
+  .dash-card__icon--not-active {
+    display: block;
+    @media screen and(max-width: 1200px) {
+      width: 42px;
+      height: 42px;
+      margin-bottom: 4px;
+      margin-right: 6px;
+    } 
+  }
+
+  .debts__icon--not-active {
+    display: block;
+    @media screen and(max-width: 1200px) {
+      width: 16px;
+      height: 16px;
+     } 
+  }
+
+  .debts__no-quantity {
+    display: block;
+  }
+  
+  .dash-card__no-value {
+    display: block;
+
+    span {
+      display: block;
+      @media screen and(max-width: 1200px) {
+        margin-left: 16px;
+       }
+    }
+
+    @media screen and(max-width: 1200px) {
+      display: flex;
+      text-align: left;
+      font-size: 14px;
+      width: 100%;
+      margin-bottom: 8px;
+     }
+  }
+
+  .dash-card__title {
+    color: #183557;
+  }
+
+  .debts__text,
+  .dash-card__no-value  {
+    color: #9CB8C2;
   }
 }

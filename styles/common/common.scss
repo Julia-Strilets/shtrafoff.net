@@ -66,8 +66,7 @@ h1,h2,h3,h4,h5,h6 {
 
   @media screen and(max-width: 1200px) {
     flex-wrap: wrap;
-   } 
-  
+   }  
 }
 
 .sidebar {
@@ -75,5 +74,16 @@ h1,h2,h3,h4,h5,h6 {
   flex-shrink: 0;
   max-width: 360px;
   width: 100%;
+
+  @media screen and(max-width: 1200px) {
+    margin-bottom: 8px;
+   }
+}
+
+.info {
+  @media screen and(max-width: 1200px) {
+    width: 100%;
+   } 
+
 }
 
