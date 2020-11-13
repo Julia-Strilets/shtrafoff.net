@@ -1,0 +1,16 @@
+.settings
+  .settings__top
+    include ../../models/settings/setting-top
+  .settings__data
+    h5.settings__title Персональные данные
+    include ../../models/settings/personal-data
+  .settings__data
+    h5.settings__title Установки и безопасность
+    include ../../models/settings/security
+  .sttings__btns
+    .sttings__btn
+      a(href="#").btn.btn--big.btn--gray
+        span Удалить аккаунт
+    .sttings__btn
+      a(href="#").btn.btn--big.btn--green
+        span Сохранить

@@ -39,7 +39,11 @@ import './card/card-cost.scss'
 import './card/card-top.scss'
 import './card/card-data.scss'
 
-
+import './popup/popup.scss'
+import './settings/settings.scss'
+import './settings/setting-top.scss'
+import './settings/personal-data.scss'
+import './settings/settings.scss'
 
 import './footer/footer.scss'
 import './footer/footer-top.scss'

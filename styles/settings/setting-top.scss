@@ -1,0 +1,18 @@
+.top {
+  display: flex;
+  align-items: center;
+}
+
+.top__icons {
+  display: block;
+  width: 41px;
+  height: 41px;
+  margin-right: 25px;
+}
+
+.top__title {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #183557;
+}

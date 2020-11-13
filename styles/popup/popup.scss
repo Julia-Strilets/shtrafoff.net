@@ -1,0 +1,27 @@
+.popup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(83, 114, 133, 0.5);
+  z-index: 21;
+}
+
+.close-button {
+  position: absolute;
+  top: 7px;
+  width: 26px;
+  height: 26px;
+  border-radius: 100%;
+  right: 7px;
+  background-image: url(../../images/icons/close.jpg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+
+

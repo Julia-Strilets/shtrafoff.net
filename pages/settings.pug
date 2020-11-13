@@ -1,0 +1,20 @@
+doctype html
+html(lang="ru")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Index.pug
+    meta(name="description", content="description")
+    link(rel="shortcut icon", href="static/favicon.ico", type="image/x-icon")
+
+body.body
+ 
+  include ../views/header/header-area
+  
+  main.content
+    .container
+      include ../models/auth/settings
+
+  footer.footer--light
+    include ../views/footer/footer-top
+    include ../views/footer/footer-bottom
