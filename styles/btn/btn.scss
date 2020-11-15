@@ -158,6 +158,13 @@
   @media screen and(max-width: 1200px) {
     margin-bottom:13px;
   }
+}
 
+.btn__buttons {
+   a {
+     &:not(:last-child) {
+       margin-bottom: 12px;
+     }
+   }
 }
 

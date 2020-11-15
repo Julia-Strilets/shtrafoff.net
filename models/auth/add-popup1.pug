@@ -1,0 +1,34 @@
+form.form
+  .form__info
+    img(src="images/icons/entity.svg", alt="entity").form__icon
+    .form__radio  
+      input(type="radio" name="1" id="1").input
+      label(for="1") Физическое лицо
+      input(type="radio" name="1" id="2" checked).input
+      label(for="2") Юридическое лицо
+    .form__fields
+      .field
+        label.label Название организации
+        input(type="text" ).input
+        span.message Обязательное поле
+      .field
+        label.label Имя
+        input(type="text" ).input
+        span.message Обязательное поле
+      
+      .field
+        label.label Адрес
+        input(type="text" ).input
+        span.message Обязательное поле
+      
+      .field
+        label.label Регион
+        select.input.input--selects.input--big
+          option Выберите регион
+      
+
+    .btn__buttons
+      a(href="#").btn.btn--big.btn--green
+        span Сохранить
+      a(href="#").btn.btn--big.btn--gray
+        span Отмена

@@ -1,7 +1,12 @@
 form.form
   .form__info
     img(src="images/icons/human.svg", alt="human").form__icon
-    p.form__desc.form__desc--bold Вы успешно зарегистрировались! Введите Ваши данные для проверки долгов:
+    .form__radio  
+      input(type="radio" name="1" id="1").input
+      label(for="1") Физическое лицо
+      input(type="radio" name="1" id="2" checked).input
+      label(for="2") Юридическое лицо
+   
     .form__fields
       .field
         label.label Фамилия
@@ -37,21 +42,10 @@ form.form
             option(value="02") 1980
             option(value="03") 1990
         span.message Обязательное поле
-
-
-
-      .field
-        label.label Регион
-        input(type="text" placeholder="Название организации").input
-        span.message Обязательное поле
   
 
-    .btn__button
+    .btn__buttons
       a(href="#").btn.btn--big.btn--green
-        span Далее
-
-    .form__pagination
-      .circle-paginator
-        .circle-paginator__item.circle-paginator__item--active
-        .circle-paginator__item
-        .circle-paginator__item
+        span Сохранить
+      a(href="#").btn.btn--big.btn--gray
+        span Отмена
