@@ -7,14 +7,15 @@ html(lang="ru")
     meta(name="description", content="description")
     link(rel="shortcut icon", href="static/favicon.ico", type="image/x-icon")
 
-body.body.auth-page
+body.body
  
-  include ../views/header/header-auth_reg
+  include ../views/header/header-premium
   
-  main.content--auth
-    .container
-      include ../models/auth/form-author
-  
+  main.content
+
+    include ../views/popup/add-popup4
+     
+
   footer.footer--light
     include ../views/footer/footer-top
     include ../views/footer/footer-bottom

@@ -7,14 +7,14 @@ html(lang="ru")
     meta(name="description", content="description")
     link(rel="shortcut icon", href="static/favicon.ico", type="image/x-icon")
 
-body.body.bg-gray
+body.body.auth-page
  
-  include ../views/header/header-premium
+  include ../views/header/header-auth_reg
   
-  main.content
-    //- include your pug here
-    include ../views/objects/objects-card
-    
-  footer.footer.footer--light
+  main.content--auth
+    .container
+      include ../models/auth/form-authorization
+  
+  footer.footer--light
     include ../views/footer/footer-top
     include ../views/footer/footer-bottom

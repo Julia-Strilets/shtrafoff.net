@@ -1,33 +1,32 @@
 form.form
   a(href="#").popup__close
   .form__info
-    img(src="images/icons/entity.svg", alt="entity").form__icon
+    img(src="images/icons/auto-ellips.svg", alt="auto").form__icon
     .form__radio  
       input(type="radio" name="1" id="1").input
-      label(for="1") Физическое лицо
+      label(for="1") Транспортное средство
       input(type="radio" name="1" id="2" checked).input
-      label(for="2") Юридическое лицо
+      label(for="2") Водительское удостоверение
+   
     .form__fields
       .field
-        label.label Название организации
+        label.label Марка автомобиля
         input(type="text" ).input
         span.message Обязательное поле
       .field
-        label.label Имя
-        input(type="text" ).input
-        span.message Обязательное поле
-      
-      .field
-        label.label Адрес
+        label.label Год выпуска
         input(type="text" ).input
         span.message Обязательное поле
       
       .field
-        label.label Регион
-        select.input.input--selects.input--big
-          option Выберите регион
-      
-
+        label.label Гос.номер автомобиля
+        input(type="text" ).input
+        span.message Обязательное поле
+      .field
+        label.label № Свидетельства о регистрации
+        input(type="text" ).input
+        span.message Обязательное поле
+        
     .btn__buttons
       a(href="#").btn.btn--big.btn--green
         span Сохранить

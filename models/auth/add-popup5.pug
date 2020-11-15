@@ -1,0 +1,20 @@
+form.form
+  a(href="#").popup__close
+  .form__info
+    img(src="images/icons/card-human.svg", alt="human").form__icon
+    .form__radio  
+      input(type="radio" name="1" id="1").input
+      label(for="1") Транспортное средство
+      input(type="radio" name="1" id="2" checked).input
+      label(for="2") Водительское удостоверение
+    .form__fields
+      .field
+        label.label № водительского удостоверения
+        input(type="text" ).input
+        span.message Обязательное поле
+
+    .btn__buttons
+      a(href="#").btn.btn--big.btn--green
+        span Сохранить
+      a(href="#").btn.btn--big.btn--gray
+        span Отмена
