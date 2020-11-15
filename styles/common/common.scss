@@ -8,6 +8,10 @@ body {
   font-family: 'Gilroy'; 
 }
 
+.bg-gray {
+  background: #F4F5F9;
+}
+
 .auth-page {
   background: url(~img/bg/regbg.jpg);
   background-repeat: repeat-x;
@@ -15,10 +19,26 @@ body {
   background-size: auto 840px;
 }
 
+// TODO refactor
 .content {
+  padding: 40px 0 100px;
   min-height: calc(100vh - 105px - 466px);
+
+  @media screen and(max-width: 1200px) {
+    padding: 20px 0;
+    min-height: unset;
+  }
 }
 
+.content--main {
+  padding: 0 0 140px;
+
+  @media screen and(max-width: 1200px) {
+    padding: 0 0 20px;
+  }
+}
+
+// TODO refactor
 .content--auth {
   padding: 40px 0 100px;
   min-height: calc(100vh - 125px - 466px);
