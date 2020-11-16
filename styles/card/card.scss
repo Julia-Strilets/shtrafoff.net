@@ -3,6 +3,7 @@
 }
 
 .card {
+  position: relative;
   max-width: 1202px;
   width: 100%;
   background-color: #FFFFFF;
@@ -24,6 +25,11 @@
 
 .card__content {
   display: flex;
+  &:not(:last-child) {
+    margin-bottom: 24px;
+  }
+
+
   @media screen and(max-width: 1200px) {
    flex-wrap: wrap;
   } 

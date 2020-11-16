@@ -1,0 +1,36 @@
+.alert {
+  position: absolute;
+  top: 115px;
+  right: 165px;
+  max-width: 566px;
+  width: 100%;
+  height: 80px;
+  box-shadow: -4px 8px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+ 
+}
+
+.alert--success {
+  border: 1px solid #136B9F;
+  background: #C2F0FF;
+  color: #136B9F;
+}
+
+.alert--warning {
+  background: #FF7676;
+  border: 1px solid #DF1E54;
+  color: #FFFFFF;
+}
+
+.alert__text {
+  padding-top:29px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.alert-close {
+  position: absolute;
+  top: 13px;
+  right: 13px;
+}

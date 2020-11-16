@@ -38,6 +38,8 @@ import './card/card.scss'
 import './card/card-cost.scss'
 import './card/card-top.scss'
 import './card/card-data.scss'
+import './top-search/top-search.scss'
+
 
 import './popup/popup.scss'
 import './settings/settings.scss'
@@ -52,3 +54,7 @@ import './footer/text-name.scss'
 import './footer/menu.scss'
 import './footer/contacts.scss'
 import './footer/store.scss'
+
+
+import './error/error.scss' 
+import './alert/alert.scss' 
