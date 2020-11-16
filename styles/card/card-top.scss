@@ -6,7 +6,7 @@
 
   @media screen and(max-width: 1200px) {
     margin-right: 8px;
-   } 
+  } 
 }
 .card__reduction {
   font-weight: 500;
@@ -18,7 +18,7 @@
   @media screen and(max-width: 1200px) {
     font-size: 14px;
     margin-right: 0;
-   } 
+  } 
 }
 
 .card__title {
@@ -26,12 +26,10 @@
   font-weight: 500;
   font-size: 17px;
  
-
   @media screen and(max-width: 1200px) {
     font-weight: bold;
     font-size: 14px;
     margin-top: 6px;
-    width: 100%;
-    
+    width: 100%; 
   } 
 }

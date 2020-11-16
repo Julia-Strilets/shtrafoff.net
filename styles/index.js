@@ -38,6 +38,9 @@ import './card/card.scss'
 import './card/card-cost.scss'
 import './card/card-top.scss'
 import './card/card-data.scss'
+import './card/requisite.scss'
+
+
 import './top-search/top-search.scss'
 
 

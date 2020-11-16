@@ -28,7 +28,6 @@
   width: 100%;
 }
 
-
 .card-data__desc {
   font-size: 16px;
   line-height: 20px;
@@ -39,14 +38,14 @@
 
     @media screen and(max-width: 1200px) {
       margin-bottom: 12px;
-     } 
+    } 
   }
   span {
     display: block;
   }
   @media screen and(max-width: 1200px) {
     font-size: 12px;
-   } 
+  } 
 }
 
 .card-data__img {
@@ -62,12 +61,12 @@
 
     @media screen and(max-width: 1200px) {
       transform: rotate(90deg);
-     }
+    }
   }
   
   @media screen and(max-width: 1200px) {
     margin: 5px auto;
-   }
+  }
 }
 
 .card-data__iniciator {
@@ -77,7 +76,7 @@
 
   @media screen and(max-width: 1200px) {
     margin-top: 10px;
-   }
+  }
 }
 
 .card-data__image {
@@ -85,7 +84,7 @@
   margin-right: 25px;
   @media screen and(max-width: 1200px) {
     margin-right: 13px;
-   }
+  }
 }
 
 .card-data__surname  {
@@ -96,33 +95,58 @@
     display: block;
     @media screen and(max-width: 1200px) {
       margin-bottom: 4px;
-     }
+    }
   }
 
   @media screen and(max-width: 1200px) {
     width: 100%;
     font-size: 12px;
-   }
-
+  }
 }
 
 .card-data__link {
-  margin-top: 19px;
+  max-width: 184px;
+  margin: 19px auto;
   display: flex;
   justify-content: center;
 
   a {
+    
     display: block;
     font-size: 14px;
     color: #136B9F;
     border-bottom: 1px dashed #136B9F;
+
     @media screen and(max-width: 1200px) {
       font-size: 12px;
-     }
+    }
   }
 
   @media screen and(max-width: 1200px) {
     margin-top: 12px;
    }
+}
 
+.card-data__links--close {
+  .card-data__link--close {
+    display: block;
+  }
+  .card-data__link--open {
+    display:none;
+  }
+  .card-data__requisite  {
+    display:none;
+  }
+}
+
+.card-data__links--open {
+  .card-data__link--close {
+    display: none;
+  }
+  .card-data__link--open {
+    display:block;
+  }
+  .card-data__requisite  {
+    display:block;
+  }
 }

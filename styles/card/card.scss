@@ -28,13 +28,10 @@
   &:not(:last-child) {
     margin-bottom: 24px;
   }
-
-
   @media screen and(max-width: 1200px) {
    flex-wrap: wrap;
   } 
 }
-
 
 .card__top {
   display: flex;
@@ -66,6 +63,5 @@
   @media screen and(max-width: 1200px) {
     padding-left: 13px;
     padding-right: 13px;
-   }
-
+  }
 }
