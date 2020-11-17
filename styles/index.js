@@ -34,7 +34,7 @@ import './sidebar/sidebar-card.scss'
 import './sidebar/calendar.scss'
 import './sidebar/month-picker.scss'
 import './sidebar/debts.scss'
-import './sidebar/editor.scss'
+import './sidebar/context-menu.scss'
 
 
 import './dash/searching-results.scss'

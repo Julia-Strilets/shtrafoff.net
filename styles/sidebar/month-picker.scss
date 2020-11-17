@@ -15,11 +15,12 @@
 }
 
 .month-picker__next {
+  outline: none;
+
   img {
     display: block;
     width: 7px;
     height: 5px;
     transform: rotate(180deg);
   }
-
 }

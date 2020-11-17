@@ -1,2 +1,2 @@
 import '../styles/index.js'
-import '../js/copyright.js'
+import '../js/common.js'

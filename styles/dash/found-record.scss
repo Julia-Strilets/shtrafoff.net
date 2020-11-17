@@ -1,6 +1,5 @@
 .found-record {
-  background: #FFFFFF;
-  border: 0.5px solid #D6D7DB;
+  border: 1px solid #D6D7DB;
   border-radius: 5px;
   display: flex;
   align-items: center;
@@ -8,13 +7,21 @@
   max-width: 1205px;
   width: 100%;
 
-  &:not(:last-child) {
-    margin-bottom: 10px;
-  }
   @media screen and(max-width: 1200px) {
     padding: 6px 7px;
   }
+
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
   
+  &:nth-child(odd) {
+    background: #FFFFFF;
+  }
+  &:nth-child(even) {
+    background: #F2F8FF;
+  }
+
 }
 
 
@@ -156,8 +163,4 @@
   @media screen and(max-width: 1200px) {
     width: 100%;
   }
-}
-
-.found-record--activ {
-  background: #F2F8FF;
 }

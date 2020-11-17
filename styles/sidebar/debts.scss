@@ -1,28 +1,28 @@
 .debts {
   width: 100%;
 }
+
 .debts__info {
-  width: 100%;
+  // width: 100%;
   display: flex;
   align-items: center;
   background: #F5F8FD;
-  padding: 10px 0px 9px  28px;
+  padding: 10px;
   cursor: pointer;
 
   &:hover {
     background: #D5DEEB;
 
-    .debts__icons {
-      display: block;
-      position: relative;
-    }
+    // .debts__controls {
+    //   opacity: 1;
+    // }
   }
 }
 
 .debts__icon {
   width: 30px;
   height: 30px;
-  margin-right:12px ;
+  margin-right: 12px;
 
   @media screen and(max-width: 1200px) {
     width: 26px;
@@ -31,11 +31,16 @@
    }
 }
 
-.debts__icons {
-  display: none;
+.debts__controls {
+  display: flex;
+  align-items: center;
+  // opacity: 0;
+  position: relative;
+  width: 30px;
+  height: 30px;
 }
 
-.debts__circles{
+.debts__circles {
   margin-left: 14px;
   width: 15px;
   display: flex;
@@ -51,16 +56,17 @@
 }
 
 .debts__content {
-  width: 198px;
+  // width: 198px;
+  width: 100%;
 
   @media screen and(max-width: 1200px) {
-    width: 142px;
+    // width: 142px;
     margin-right: 15px;
   }   
 }
 
 .debts__name {
-  width: 280px;
+  // width: 280px;
   font-weight: 500;
   font-size: 16px;
   line-height: 18px;
@@ -73,17 +79,18 @@
 
   @media screen and(max-width: 1200px) {
     font-size: 11px;
-    width: 142px;
+    // width: 142px;
   }
     
 }
+
 .debts__date {
-  width: 300px;
+  // width: 300px;
   display: flex;
   align-items: center;
 
   @media screen and(max-width: 1200px) {
-    width: 180px;
+    // width: 180px;
   }
 }
 
@@ -111,15 +118,13 @@
   height: 24px;
   border-radius: 100%;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 14px;
   color: #FFFFFF;
   margin-left: 21px;
-
   
   @media screen and(max-width: 1200px) {
     width: 20px;
     height: 20px;
     font-size: 12px;
   }
-
 }

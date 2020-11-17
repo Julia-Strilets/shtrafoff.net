@@ -1,4 +1,4 @@
-.sedebar-card   {
+.sidebar-card   {
   max-width: 360px;
   width: 100%;
   background: #FFFFFF;
@@ -9,7 +9,7 @@
   
 }
 
-.sedebar-card__top {
+.sidebar-card__top {
   margin-bottom: 28px;
   display: flex;
   padding-left: 24px;
@@ -19,7 +19,7 @@
    }
 }
 
-.sedebar-card__label  {
+.sidebar-card__label  {
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -80,11 +80,11 @@
   }
 }
 
-.sedebar-card__list {
+.sidebar-card__list {
   margin-bottom: 12px;
 }
 
-.sedebar-card__item {
+.sidebar-card__item {
   height: 45px;
   list-style-type: none;
   display: flex;
@@ -100,7 +100,7 @@
   // }
 }
 
-.sedebar-card__img {
+.sidebar-card__img {
   display: block;
   margin-right: 24px;
   margin-left: 21px;
@@ -113,7 +113,7 @@
    }
 }
 
-.sedebar-card__link {
+.sidebar-card__link {
   font-weight: 500;
   font-size: 17px;
   line-height: 20px;
@@ -124,26 +124,26 @@
    }
 }
 
-.sedebar-card__content--activ {
+.sidebar-card__content--active {
   background: #DF1E54;
 
-  .sedebar-card__debts {
+  .sidebar-card__debts {
     display: block;
   }
 
-  .sedebar-card__link {
+  .sidebar-card__link {
     color: #FFFFFF;
   }
-  .sedebar-card__review-activ {
+  .sidebar-card__review-active {
     display: block;
     margin-right: 24px;
     margin-left: 21px;
   }
-  .sedebar-card__review {
+  .sidebar-card__review {
     display: none;
   }
 
-  .sedebar-card__add {
+  .sidebar-card__add {
     display: block;
     width: 24px;
     height: 24px;
@@ -165,17 +165,17 @@
 
 }
 
-.sedebar-card__review {
+.sidebar-card__review {
   margin-right: 24px;
   margin-left: 21px;
 }
 
-.sedebar-card__review-activ,
-.sedebar-card__add {
+.sidebar-card__review-active,
+.sidebar-card__add {
   display: none;
 }
 
-.sedebar-card__gup {
+.sidebar-card__gup {
   padding: 0px 46px;
   margin-bottom: 18px;
 
@@ -190,7 +190,7 @@
   background: #DD0F49;
 }
 
-.sedebar-card__check {
+.sidebar-card__check {
   display: flex;
   align-items: flex-start;
   padding-left: 46px;
@@ -202,11 +202,11 @@
     padding-left: 24px;
   }
 }
-.sedebar-card__icon {
+.sidebar-card__icon {
   margin-right: 8px;
   display: block;
 }
-.sedebar-card__text {
+.sidebar-card__text {
   flex-shrink: 0;
   font-weight: 500;
   font-size: 17px;
@@ -226,7 +226,7 @@
    }
 }
 
-.sedebar-card__btn {
+.sidebar-card__btn {
   padding: 0 46px;
 
   @media screen and(max-width: 1200px) {
@@ -234,6 +234,6 @@
    }
 }
 
-.sedebar-card__debts {
+.sidebar-card__debts {
   display:none;
 }
