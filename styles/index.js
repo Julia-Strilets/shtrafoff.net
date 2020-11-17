@@ -30,7 +30,13 @@ import './main/feature-card.scss'
 
 import './dash/dash.scss'
 import './dash/dash-card.scss'
-import './dash/sidebar-card.scss'
+import './sidebar/sidebar-card.scss'
+import './sidebar/calendar.scss'
+import './sidebar/month-picker.scss'
+import './sidebar/debts.scss'
+import './sidebar/editor.scss'
+
+
 import './dash/searching-results.scss'
 import './dash/found-record.scss'
 

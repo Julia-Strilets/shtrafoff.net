@@ -91,13 +91,13 @@
   align-items: center;
   cursor: pointer;
 
-  &:not(:last-child) {
-    margin-bottom: 20px;
+  // &:not(:last-child) {
+  //   margin-bottom: 20px;
 
-    @media screen and(max-width: 1200px) {
-      margin-bottom: 9px;
-     }
-  }
+  //   @media screen and(max-width: 1200px) {
+  //     margin-bottom: 9px;
+  //    }
+  // }
 }
 
 .sedebar-card__img {
@@ -124,8 +124,12 @@
    }
 }
 
-.sedebar-card__item--activ {
+.sedebar-card__content--activ {
   background: #DF1E54;
+
+  .sedebar-card__debts {
+    display: block;
+  }
 
   .sedebar-card__link {
     color: #FFFFFF;
@@ -150,7 +154,15 @@
     text-align: center;
     font-weight: bold;
     font-size: 20px;
+
+    @media screen and(max-width: 1200px) {
+      margin-left:37px;
+      width: 20px;
+      height: 20px;
+      font-size: 16px;
+     }
   }
+
 }
 
 .sedebar-card__review {
@@ -220,4 +232,8 @@
   @media screen and(max-width: 1200px) {
    padding: 0 15px;
    }
+}
+
+.sedebar-card__debts {
+  display:none;
 }

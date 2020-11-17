@@ -1,12 +1,16 @@
 .dash
   .container
     .content-block 
-      .sidebar
-        include ../../models/dash/sidebar-card
+      .sidebar__content
+        .sidebar
+          include ../../models/sidebar/sidebar-card
+        .sidebar
+          include ../../models/sidebar/calendar
 
       .info
         .dash__cards
           include ../../models/dash/dash-card_vehicles
+          include ../../models/dash/dash-card_tex-debts
           include ../../models/dash/dash-card_tex-debts
           include ../../models/dash/dash-card_drivers
           include ../../models/dash/dash-card_individuals

@@ -1,0 +1,65 @@
+.calendar
+
+  .calendar__month
+    include ./month-picker
+
+  .calendar__current-year 2020
+  
+  .calendar__thead
+    .calendar__day.calendar__day--weekday ПН
+    .calendar__day.calendar__day--weekday ВТ
+    .calendar__day.calendar__day--weekday СР
+    .calendar__day.calendar__day--weekday ЧТ
+    .calendar__day.calendar__day--weekday ПТ
+    .calendar__day.calendar__day--holiday СБ
+    .calendar__day.calendar__day--holiday ВС
+  
+  .calendar__week
+    .calendar__bg
+    .calendar__day.calendar__day--not-this 28
+    .calendar__day.calendar__day--not-this 29
+    .calendar__day.calendar__day--not-this 30
+    .calendar__day 1
+    .calendar__day 2
+    .calendar__day 3
+    .calendar__day 4
+
+  .calendar__week.calendar__week--active
+    .calendar__bg
+    .calendar__day.calendar__day--active 5
+    .calendar__day 6
+    .calendar__day 7
+    .calendar__day 8
+    .calendar__day 9
+    .calendar__day 10
+    .calendar__day 11
+
+  .calendar__week
+    .calendar__bg
+    .calendar__day 12
+    .calendar__day 13
+    .calendar__day 14
+    .calendar__day 15
+    .calendar__day 16
+    .calendar__day 17
+    .calendar__day 18
+
+  .calendar__week
+    .calendar__bg
+    .calendar__day 19
+    .calendar__day 20
+    .calendar__day 21
+    .calendar__day 22
+    .calendar__day 23
+    .calendar__day 24
+    .calendar__day 25
+
+  .calendar__week
+    .calendar__bg
+    .calendar__day 26
+    .calendar__day 27
+    .calendar__day 28
+    .calendar__day 29
+    .calendar__day 30
+    .calendar__day 31
+    .calendar__day.calendar__day--not-this 1

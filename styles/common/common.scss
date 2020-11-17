@@ -89,7 +89,7 @@ h1,h2,h3,h4,h5,h6 {
    }  
 }
 
-.sidebar {
+.sidebar__content {
   margin-right: 10px;
   flex-shrink: 0;
   max-width: 360px;
@@ -105,5 +105,11 @@ h1,h2,h3,h4,h5,h6 {
     width: 100%;
    } 
 
+}
+
+.sidebar {
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
 }
 

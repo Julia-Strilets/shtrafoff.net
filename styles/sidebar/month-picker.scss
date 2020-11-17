@@ -1,0 +1,25 @@
+.month-picker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    display: block;
+    width: 7px;
+    height: 5px;
+  }
+}
+
+.month-picker__current {
+  margin: 0 30px;
+}
+
+.month-picker__next {
+  img {
+    display: block;
+    width: 7px;
+    height: 5px;
+    transform: rotate(180deg);
+  }
+
+}

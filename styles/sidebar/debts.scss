@@ -1,0 +1,125 @@
+.debts {
+  width: 100%;
+}
+.debts__info {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: #F5F8FD;
+  padding: 10px 0px 9px  28px;
+  cursor: pointer;
+
+  &:hover {
+    background: #D5DEEB;
+
+    .debts__icons {
+      display: block;
+      position: relative;
+    }
+  }
+}
+
+.debts__icon {
+  width: 30px;
+  height: 30px;
+  margin-right:12px ;
+
+  @media screen and(max-width: 1200px) {
+    width: 26px;
+    height: 26px;
+    margin-right:6px ;
+   }
+}
+
+.debts__icons {
+  display: none;
+}
+
+.debts__circles{
+  margin-left: 14px;
+  width: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.debts__circle {
+  width: 3px;
+  height: 3px;
+  background: #183557;
+  border-radius: 100%;
+}
+
+.debts__content {
+  width: 198px;
+
+  @media screen and(max-width: 1200px) {
+    width: 142px;
+    margin-right: 15px;
+  }   
+}
+
+.debts__name {
+  width: 280px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #183557;
+  margin-bottom: 5px;
+
+  span {
+    display: block;
+  }
+
+  @media screen and(max-width: 1200px) {
+    font-size: 11px;
+    width: 142px;
+  }
+    
+}
+.debts__date {
+  width: 300px;
+  display: flex;
+  align-items: center;
+
+  @media screen and(max-width: 1200px) {
+    width: 180px;
+  }
+}
+
+.debts__auto-number {
+  border: 1px solid #136B9F;
+  padding: 1px 7px;
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #136B9F;
+  margin-right: 7px;
+
+  @media screen and(max-width: 1200px) {
+    font-size: 10px;
+  }
+}
+
+.debts__number {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #DF1E54;
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  font-weight: 500;
+  font-size: 15px;
+  color: #FFFFFF;
+  margin-left: 21px;
+
+  
+  @media screen and(max-width: 1200px) {
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+  }
+
+}
