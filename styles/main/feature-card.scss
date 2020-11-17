@@ -1,12 +1,11 @@
 .feature-card {
-  max-width: 788px;
   width: 100%;
   background: #F4F5F9;
   border-radius: 0px 5px 5px 0px;
   padding: 93px 110px 87px;
 
   @media screen and(max-width: 1200px) {
-    border-radius: 0px 0px 2.81716px 2.81716px;
+    border-radius: 0px 0px 3px 3px;
     padding: 14px 20px 29px 20px;
   }
 }
@@ -52,6 +51,7 @@
 }
 
 .feature-card__desk {
+
   &:not(:last-child) {
     margin-bottom: 24px;
 

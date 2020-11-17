@@ -10,18 +10,26 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 44px 0;
+  padding: 12px 0;
+
+  @media screen and (min-width: 1200px){
+    padding: 44px 0;
+  }
 }
 
 .header__content--area {
-  padding: 30px 0;
+  padding: 12px 0;
+
+  @media screen and (min-width: 1200px){
+    padding: 30px 0;
+  }
 }
 
 .header__content--auth {
   border-bottom: unset;
 }
 
-.header__nav {
+.header__login, .header__btn, .header__nav {
   display: none;
 
   @media screen and (min-width: 1200px){
@@ -30,5 +38,9 @@
 }
 
 .header__links {
-  display: flex;
+  display: none;
+
+  @media screen and (min-width: 1200px){
+    display: flex;
+  }
 }

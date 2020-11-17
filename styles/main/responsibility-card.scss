@@ -1,13 +1,11 @@
 .responsibility-card {
-  max-width: 763px;
   width: 100%;
   background: #FFFFFF;
-  box-shadow: 0px 0px 30px 2px rgba(0, 0, 0, 0.25);
-  border-radius: 5px;
 
-  @media screen and(max-width: 1200px) {
-    border-radius: 0;
-    box-shadow: unset;
+  @media screen and(min-width: 1200px) {
+    width: 48.5%;
+    box-shadow: 0px 0px 30px 2px rgba(0, 0, 0, .25);
+    border-radius: 5px;
   }
 }
   
@@ -15,29 +13,30 @@
 .responsibility-card__top {
   background: #F4F5F9;
   border-radius: 5px 5px 0px 0px;
-  padding: 17px 48px;
+  padding: 12px 10px;
   display: flex;
-  // justify-content: space-between;
   align-items: center;
 
-  @media screen and(max-width: 1200px) {
-    padding: 12px 10px;
+  @media screen and(min-width: 1200px) {
+    padding: 17px 48px;
   }
 }
 
 .responsibility-card__img {
   display: block;
-  margin-right: 35px;
-  width: 67px;
-  height: 74px;
+  object-fit: contain;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
 
-  @media screen and(max-width: 1200px) {
-    margin-right: 10px;
-    width: 36px;
-    height: 40px;
+  @media screen and(min-width: 1200px) {
+    margin-right: 35px;
+    width: 72px;
+    height: 72px;
   }
 }
 
+// TODO max => min-width
 .responsibility-card__title {
   font-weight: bold;
   font-size: 22px;
@@ -52,11 +51,9 @@
 
 .responsibility-card__bottom {
   padding: 34px 65px 74px 48px;
-  height: 564px;
 
   @media screen and(max-width: 1200px) {
     padding: 10px 16px 28px;
-    height: auto;
   }
 }
 
@@ -110,9 +107,7 @@
     margin-right: 15px;
 
     @media screen and(max-width: 1200px) {
-      
       margin-right: 11px;
-      
     }
   }
 

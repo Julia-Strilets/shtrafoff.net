@@ -55,12 +55,8 @@ body {
   padding: 0 32px;
   margin: 0 auto;
 
-  @media screen and(max-width: 1000px) {
-    // padding-left: 21px;
-    // padding-right: 21px;
-
-    padding-left: 10px;
-    padding-right: 10px;
+  @media screen and(max-width: 1200px) {
+    padding: 0 11px;
   }
 }
 

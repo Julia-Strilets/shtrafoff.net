@@ -17,18 +17,18 @@
   font-size: 34px;
   line-height: 1em;
 
-    &:not(:last-child) {
-      margin-bottom: 40px;
-
-      @media screen and(max-width: 1200px) {
-        margin-bottom: 8px;
-      }
-    }
+  &:not(:last-child) {
+    margin-bottom: 20px;
 
     @media screen and(max-width: 1200px) {
-      font-size: 16px;
-      line-height: 12px;
+      margin-bottom: 8px;
     }
+  }
+
+  @media screen and(max-width: 1200px) {
+    font-size: 16px;
+    line-height: 12px;
+  }
 }
 
 a.footer-contacts__value {
