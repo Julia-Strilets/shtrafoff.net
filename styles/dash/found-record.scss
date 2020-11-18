@@ -62,6 +62,15 @@
   &:not(:last-child) {
     margin-bottom: 5px;
   }
+
+  span {
+
+    @media screen and(max-width: 1600px) {
+      margin-top: 5px;
+      display: block;
+    }
+
+  }
 }
 
 .found-record__text {
