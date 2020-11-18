@@ -1,17 +1,21 @@
 .alert {
   position: absolute;
-  width: 80%;
-  height: 80px;
-  top: 50px;
-  right: 8px;
-
+  width: 95%;
+  padding: 15px 30px 15px 15px;
+  top: 65px;
+  left: 50%;
+  transform: translateX(-50%);
   box-shadow: -4px 8px 8px rgba(0, 0, 0, 0.25);
   border-radius: 6px;
 
   @media screen and(min-width: 1200px) {
-    right: 150px;
-    max-width: 566px;
+    width: unset;
     top: 115px;
+    right: 175px;
+    left: unset;
+    transform: unset;
+    max-width: 566px;
+    padding: 30px 70px;
   }
 }
 
@@ -28,13 +32,10 @@
 }
 
 .alert__text {
-  padding-top:29px;
-  text-align: center;
-  font-weight: 300;
+  font-weight: 600;
   font-size: 16px;
 
   @media screen and(min-width: 1200px) {
-    font-weight: 600;
     font-size: 18px;
   }
 }
