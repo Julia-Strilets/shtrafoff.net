@@ -10,7 +10,7 @@
 
 
   @media screen and(min-width: 1201px) {
-    max-width: 395px;
+    width: 32%;
     margin-right: 10px;
     padding: 28px 20px 14px;
   }
@@ -75,7 +75,6 @@
 
 .dash-card__debts {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   margin-bottom: 22px;
   border-bottom: 2px solid #D5DEEB;
@@ -107,14 +106,12 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 14px;
-  // margin-right: 63px;
-  // margin-left: 18px;
+  margin-left: 18px;
 
   @media screen and(max-width: 1200px) {
     font-size: 14px;
     line-height: 17px;
-    // margin-right: 9px;
-    // margin-left: 19px;
+    margin-left: 19px;
   }
 }
 
@@ -129,6 +126,7 @@
   align-items: center;
   justify-content: center;
   background-color:rgba(223, 30, 84, 0.2);
+  margin-left: auto;
 
   @media screen and(max-width: 1200px) {
     width: 22px;

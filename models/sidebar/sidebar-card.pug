@@ -18,7 +18,7 @@
         a(href="#").sidebar-card__link Долги по базе ФССП
         .sidebar-card__add +
       .sidebar-card__debts
-        include ./debts-fssp
+        include ./debts-human
 
     .sidebar-card__content
       li.sidebar-card__item
@@ -34,12 +34,11 @@
         a(href="#").sidebar-card__link Долги по базе ФНС
         .sidebar-card__add +
       .sidebar-card__debts
-        include ./debts-fsn
+        include ./debts-human
 
-
+ 
     li.sidebar-card__item
-      img(src="images/sidebar/search.svg", alt="search").sidebar-card__img
-      a(href="#").sidebar-card__link Поиск по номеру ИП 
+      input(type="text"  placeholder="Поиск по номеру ИП").sidebar-card__input
   .sidebar-card__gup
     .gup
   .sidebar-card__check

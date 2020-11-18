@@ -244,3 +244,24 @@
 .sidebar-card__debts {
   display:none;
 }
+
+.sidebar-card__input {
+  outline: none;
+  margin-top:19px;
+  margin-left: 24px;
+  width: 240px;
+  height: 45px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #8B9AAF;
+  border: none;
+  background-image:url(../../images/sidebar/search.svg);
+  background-repeat: no-repeat;
+  padding-left: 50px;
+
+  &::placeholder {
+
+    color: #8B9AAF;
+  }
+}
