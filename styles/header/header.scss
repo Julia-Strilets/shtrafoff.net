@@ -44,3 +44,10 @@
     display: flex;
   }
 }
+
+.header__burger {
+
+  @media screen and(min-width: 1200px){
+    display: none;
+  }
+}

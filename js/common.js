@@ -1,5 +1,7 @@
 const debtsControls = document.querySelectorAll('.debts__controls')
-console.log(debtsControls)
+const burgerMenu = document.querySelector('.burger__content')
+const burgerMenuOpen = document.querySelector('.burger__open')
+const burgerMenuClose = document.querySelector('.burger__close')
 
 
 function debtsControlsToggler() {
@@ -12,4 +14,16 @@ function debtsControlsToggler() {
   }
 }
 
+function burgerMenuToggler() {
+  if(burgerMenu) {
+    burgerMenuOpen.onclick = () => {
+      burgerMenu.classList.toggle('burger__content--close')
+    }
+    burgerMenuClose.onclick = () => {
+      burgerMenu.classList.toggle('burger__content--close')
+    }
+  }
+}
+
+document.addEventListener("DOMContentLoaded", burgerMenuToggler);
 document.addEventListener("DOMContentLoaded", debtsControlsToggler);
