@@ -45,19 +45,18 @@
 }
 
 .sttings__btns {
-  display: flex;
-  max-width: 664px;
   width: 100%;
-  margin: 0 auto;
 
-  @media screen and(max-width: 1200px) {
-    flex-wrap: wrap;
-   }
+   @media screen and(min-width: 1201px) {
+    max-width: 664px;
+    display: flex;
+    margin: 0 auto;
+  }
 }
 
 .sttings__btn {
   flex-shrink: 0;
-  max-width: 322px;
+
   width: 100%;
 
   &:not(:last-child) {
@@ -68,4 +67,10 @@
       margin-bottom: 9px;
     }
   }
+
+  @media screen and(min-width: 1201px) {
+    max-width: 322px;
+  }
+
+  
 }

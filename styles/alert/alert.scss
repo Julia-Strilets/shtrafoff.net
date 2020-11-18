@@ -1,12 +1,18 @@
 .alert {
   position: absolute;
-  top: 115px;
-  right: 165px;
-  max-width: 566px;
-  width: 100%;
+  width: 80%;
   height: 80px;
+  top: 50px;
+  right: 8px;
+
   box-shadow: -4px 8px 8px rgba(0, 0, 0, 0.25);
   border-radius: 6px;
+
+  @media screen and(min-width: 1201px) {
+    right: 150px;
+    max-width: 566px;
+    top: 115px;
+  }
 }
 
 .alert--success {
@@ -24,8 +30,13 @@
 .alert__text {
   padding-top:29px;
   text-align: center;
-  font-weight: 600;
-  font-size: 18px;
+  font-weight: 300;
+  font-size: 16px;
+
+  @media screen and(min-width: 1201px) {
+    font-weight: 600;
+    font-size: 18px;
+  }
 }
 
 .alert-close {

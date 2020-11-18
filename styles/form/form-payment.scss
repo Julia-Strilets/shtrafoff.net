@@ -1,16 +1,18 @@
 .form-payment {
   margin: 0 auto;
-  max-width: 1104px;
   width: 100%;
-  display: flex;
-  justify-content: space-between;
   border-radius: 6px;
-  background: #F1FAFF;
+  background: #FFFFFF;
+  padding: 10px;
 
-  @media screen and(max-width: 1200px) {
-    flex-direction: column;
-    background: #FFFFFF;
+  @media screen and(min-width: 1201px) {
+    max-width: 1104px;
+    background: #F1FAFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
     border: 1px solid #D6D7DB;
+    
   }
 }
 
@@ -35,15 +37,16 @@
 }
 
 .form--payment {
-  max-width: 868px;
-  margin: 0;
+  width: 100%;
+  padding: 0 11px;
   box-shadow: none;
-  padding: 46px 62px 50px 53px;
-  border-radius: 0px 6px 6px 0px;
-
-  @media screen and(max-width: 1200px) {
-    border: none;
-    padding: 0px 11px;
+  border: none;
+ 
+  @media screen and(min-width: 1201px) {
+    max-width: 868px;
+    padding: 46px 62px  50px 53px;
+    border-radius: 0px 6px 6px 0px;
+    margin: 0;
   }
 }
 
@@ -51,18 +54,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  
   @media screen and(max-width: 1200px) {
     flex-direction: column;
   }
 }
 
 .form-payment__adv {
-  max-width: 364px;
+  padding: 16px 10px;
+  margin-bottom: 14px;
   width: 100%;
-  border: 0.5px dashed #183557;
+  border: 1px dashed #183557;
   border-radius: 6px;
-  padding: 19px 16px 20px 16px;
+  
 
   &:not(:last-child) {
     margin-right: 25px;
@@ -72,9 +76,9 @@
     }
   }
 
-  @media screen and(max-width: 1200px) {
-    padding: 16px 10px;
-    margin-bottom: 14px;
+  @media screen and(min-width: 1201px) {
+    max-width: 364px;
+    padding: 19px 16px 20px 16px;
   }
 }
 
