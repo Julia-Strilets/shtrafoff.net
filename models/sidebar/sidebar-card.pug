@@ -6,39 +6,41 @@
       | Мониторинг долгов 
   ul.sidebar-card__list
 
-    .sidebar-card__content
-      li.sidebar-card__item
+    li.sidebar-card__content
+      .sidebar-card__item
         img(src="images/sidebar/review.svg", alt="review").sidebar-card__review
         img(src="images/sidebar/review-activ.svg", alt="review").sidebar-card__review-active
         a(href="#").sidebar-card__link Обзор
 
-    .sidebar-card__content
-      li.sidebar-card__item
+    li.sidebar-card__content
+      .sidebar-card__item
         img(src="images/sidebar/fssp.png", alt="fssp").sidebar-card__img
         a(href="#").sidebar-card__link Долги по базе ФССП
         .sidebar-card__add +
       .sidebar-card__debts
         include ./debts-human
 
-    .sidebar-card__content
-      li.sidebar-card__item
+    li.sidebar-card__content
+      .sidebar-card__item
         img(src="images/sidebar/gbdd.png", alt="gbdd").sidebar-card__img
         a(href="#").sidebar-card__link Штрафы ГИБДД
         .sidebar-card__add +
       .sidebar-card__debts
         include ./debts-gbdd
 
-    .sidebar-card__content.sidebar-card__content--active
-      li.sidebar-card__item
+    //- li.sidebar-card__content.sidebar-card__content--active
+    li.sidebar-card__content
+      .sidebar-card__item
         img(src="images/sidebar/fns.png", alt="fns").sidebar-card__img
         a(href="#").sidebar-card__link Долги по базе ФНС
         .sidebar-card__add +
       .sidebar-card__debts
         include ./debts-human
 
- 
-    li.sidebar-card__item
-      input(type="text"  placeholder="Поиск по номеру ИП").sidebar-card__input
+  .sidebar-card__input
+    img(src="images/icons/search.svg", alt="icon")
+    input(type="text"  placeholder="Поиск по номеру ИП")
+
   .sidebar-card__gup
     .gup
   .sidebar-card__check

@@ -77,12 +77,13 @@ h1,h2,h3,h4,h5,h6 {
 
 .content-block {
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
   margin-top: 14px;
 
-  @media screen and(max-width: 1200px) {
-    flex-wrap: wrap;
-   }  
+  @media screen and(min-width: 1200px) {
+    flex-wrap: nowrap;
+  }
 }
 
 .sidebar__content {
@@ -90,7 +91,7 @@ h1,h2,h3,h4,h5,h6 {
   margin-bottom: 8px;
   width: 100%;
 
-   @media screen and(min-width: 1201px) {
+   @media screen and(min-width: 1200px) {
     max-width: 360px;
     margin-right: 10px;
     flex-shrink: 0;
@@ -98,10 +99,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .info__content {
-  @media screen and(max-width: 1200px) {
-    width: 100%;
-   } 
-
+  width: 100%;
 }
 
 .sidebar {

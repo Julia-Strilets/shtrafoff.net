@@ -18,7 +18,8 @@
 
   @media screen and(max-width: 1200px) {
     padding: 10px;
-   }
+    height: 120px;
+  }
 }
 
 .searching-results__content {
@@ -29,6 +30,7 @@
   width: 100%;
   height: 100%;
   position: relative;
+  padding: 12px;
 }
 
 .searching-results__icon {
@@ -39,9 +41,8 @@
   @media screen and(max-width: 1200px) {
     width: 26px;
     height: 28px;
-    margin-right: 4px;
-    margin-left: 15px;
-   }
+    margin-right: 8px;
+  }
 }
 
 .searching-results__text {
@@ -54,23 +55,26 @@
 
   span {
     display: block;
+
+    @media screen and(max-width: 767px) {
+      font-size: 9px;
+    }
   }
 
   @media screen and(max-width: 1200px) {
     font-size: 12px;
     line-height: 13px;
-    // text-align: center;
-   }
+  }
 }
 
 .searching-results__img {
   position: absolute;
-  top: 0;
+  top: 16px;
   bottom: 0;
   right: 0;
 
   @media screen and(max-width: 1200px) {
     width: 250px;
-    top: 120px;
-   }
+    top: unset;
+  }
 }

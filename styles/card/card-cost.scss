@@ -1,4 +1,6 @@
 .card__cost {
+  display: flex;
+  flex-direction: column;
   flex-shrink: 0;
   width: 288px;
   margin-left: 20px;
@@ -37,8 +39,9 @@
 .cost__amount {
   width: 288px;
   padding-top: 34px;
-  padding-bottom: 71px;
+  // padding-bottom: 71px;
   // height: 207px;
+  height: 100%;
   background: #F1F7FE;
 
   @media screen and(max-width: 1200px) {

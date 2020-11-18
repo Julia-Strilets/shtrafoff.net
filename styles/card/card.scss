@@ -4,12 +4,12 @@
 
 .card {
   position: relative;
-  max-width: 1202px;
   width: 100%;
   background-color: #FFFFFF;
   border: 0.5px solid hsl(228, 6%, 85%);
   border-radius: 5px;
   padding: 16px 0px 10px 20px;
+  // overflow: hidden;
 
   @media screen and(max-width: 1200px) {
     border: 1px solid #D6D7DB;
@@ -54,7 +54,8 @@
 .card__datas {
   display: flex;
   margin-bottom: 5px;
-  // justify-content: space-between;
+  // align-items: center;
+  justify-content: space-between;
 
   @media screen and(max-width: 1200px) {
     flex-wrap: wrap;

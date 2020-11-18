@@ -2,28 +2,24 @@
   border: 1px solid #D6D7DB;
   border-radius: 5px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  padding: 13px 18px 14px 29px;
-  max-width: 1205px;
+  padding: 13px 18px;
   width: 100%;
 
   @media screen and(max-width: 1200px) {
     padding: 6px 7px;
   }
-
   &:not(:last-child) {
     margin-bottom: 10px;
   }
-  
   &:nth-child(odd) {
     background: #FFFFFF;
   }
   &:nth-child(even) {
     background: #F2F8FF;
   }
-
 }
-
 
 .found-record__icon {
   display: block;
@@ -37,25 +33,28 @@
 }
 
 .found-record__name {
+  width: 8%;
   font-weight: 500;
   font-size: 17px;
   line-height: 20px;
   color: #605858;
-  margin-right: 39px;
+  margin-right: 16px;
+
   @media screen and(max-width: 1200px) {
     display: none;
   }
 }
 
 .found-record__amounts {
-  margin-right: 60px;
+  width: 25%;
+  margin-right: 16px;
   @media screen and(max-width: 1200px) {
     display: none;
   }
 }
 
 .found-record__amount  {
-  width: 280px;
+  // width: 280px;
   font-size: 16px;
   line-height: 14px;
   color: #183557;
@@ -92,7 +91,8 @@
 .found-record__card {
   display: flex;
   align-items: center;
-  flex-shrink: 0;
+  // flex-shrink: 0;
+  width: 50%;
 
   @media screen and(max-width: 1200px) {
     flex-wrap: wrap;
@@ -114,17 +114,16 @@
 }
 
 .card-found__text {
-  margin-right:8px;
+  margin-right: 32px;
 
-  
   @media screen and(max-width: 1200px) {
     display: flex;
   }
 }
 
 .card-found__surname  {
-  width: 350px;
-  flex-shrink: 0;
+  // width: 350px;
+  // flex-shrink: 0;
   font-size: 16px;
   line-height: 16px;
   color: #183557;
@@ -138,12 +137,12 @@
 
 .card-found__date  {
   display: flex;
+
   @media screen and(max-width: 1200px) {
    margin-left: 12px;
    align-items: center;
   }
 }
-
 
 .date {
   font-size: 14px;
@@ -154,12 +153,14 @@
     font-size: 10px;
   }
 }
+
 .date__icon {
   margin-right: 9px;
 }
 
 .card-found__btn {
-  flex-shrink: 0;
+  margin-left: auto;
+
   @media screen and(max-width: 1200px) {
     width: 100%;
   }
