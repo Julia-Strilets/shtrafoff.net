@@ -126,27 +126,3 @@
     margin-top: 12px;
    }
 }
-
-.card-data__links--close {
-  .card-data__link--close {
-    display: block;
-  }
-  .card-data__link--open {
-    display:none;
-  }
-  .card-data__requisite  {
-    display:none;
-  }
-}
-
-.card-data__links--open {
-  .card-data__link--close {
-    display: none;
-  }
-  .card-data__link--open {
-    display:block;
-  }
-  .card-data__requisite  {
-    display:block;
-  }
-}
