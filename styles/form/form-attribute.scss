@@ -62,43 +62,30 @@
 }
 
 .input--selects {
-  padding:11px 20px 11px 30px ;
-  width: 100px;
+  padding:11px 20px 11px 10px ;
+  width: 30%;
   appearance: none;
   color: #D5DEEB;
   background-image: url(../../images/icons/arrow.svg);
   background-repeat: no-repeat;
-  background-position:76px 19px ;
+  background-position:right 14px top 19px;
 
   &:not(:last-child) {
     margin-right: 8px;
   }
 
   @media screen and(max-width: 1200px) {
-    width: 72px;
-    padding: 8px 25px 8px 14px;
-    background-position: 50px 13px;
+    padding: 8px 25px 8px 16px;
+    background-position:right 8px top 12px;
   }
 }
 
 .input--big {
   width: 100%;
-  background-position: 315px 20px;
-  @media screen and(max-width: 1200px) {
-    background-position: 415px 13px;
-  }
 }
 
 .input--month {
-  width: 144px;
-  padding-left: 47px;
-  background-position:125px 19px ;
-
-  @media screen and(max-width: 1200px) {
-    width: 104px;
-    padding-left: 25px;
-    background-position: 80px 13px;
-  }
+  width:50%;
 }
 
 .textarea {
